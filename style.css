@@ -1,16 +1,125 @@
+/* Bitcoin-Quiz Orange Theme */
+:root {
+  --bitcoin-orange: #f7931a;
+  --bitcoin-dark: #1e1e1e;
+  --bitcoin-light: #ffffff;
+  --bitcoin-grey: #2b2b2b;
+  --bitcoin-border: #444;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 body {
-    font-family: sans-serif;
-    padding: 1em;
-    background-color: #f4f4f4;
+  background-color: var(--bitcoin-dark);
+  color: var(--bitcoin-light);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
 }
+
 .container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 2em;
-    border-radius: 10px;
+  background-color: var(--bitcoin-grey);
+  border-radius: 16px;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--bitcoin-border);
 }
-button {
-    margin-top: 1em;
+
+h1, h2, h3 {
+  color: var(--bitcoin-orange);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--bitcoin-light);
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: var(--bitcoin-orange);
+  border: none;
+  border-radius: 8px;
+  color: var(--bitcoin-dark);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+select {
+  background-color: var(--bitcoin-light);
+  color: var(--bitcoin-dark);
+}
+
+button:hover {
+  background-color: #e67e00;
+}
+
+#question-container {
+  margin-top: 20px;
+}
+
+#answers button {
+  margin-bottom: 10px;
+  background-color: #333;
+  color: white;
+  border: 1px solid var(--bitcoin-border);
+}
+
+#answers button.correct {
+  background-color: #2ecc71;
+}
+
+#answers button.incorrect {
+  background-color: #e74c3c;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #222;
+  border: 1px solid var(--bitcoin-orange);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: var(--bitcoin-orange);
+  text-align: center;
+}
+
+.progress {
+  margin-top: 20px;
+  height: 10px;
+  width: 100%;
+  background-color: #555;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--bitcoin-orange);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #888;
+}
+
+footer a {
+  color: var(--bitcoin-orange);
+  text-decoration: none;
 }
