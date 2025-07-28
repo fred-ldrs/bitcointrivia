@@ -1,1 +1,5 @@
-
+[
+    {"q": "Was ist Bitcoin?", "a": ["Eine Kryptowährung", "Ein Spiel", "Ein Unternehmen"], "c": 0},
+    {"q": "Was bedeutet HODL?", "a": ["Halten von Bitcoin", "Verkaufen", "Zerstören"], "c": 0},
+    {"q": "Wie viele BTC gibt es maximal?", "a": ["21 Millionen", "42 Millionen", "Unendlich"], "c": 0}
+]
