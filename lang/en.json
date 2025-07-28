@@ -1,5 +1,43 @@
 [
-    {"q": "What is Bitcoin?", "a": ["A cryptocurrency", "A game", "A company"], "c": 0},
-    {"q": "What does HODL mean?", "a": ["Holding Bitcoin", "Selling", "Destroying"], "c": 0},
-    {"q": "How many BTC can ever exist?", "a": ["21 million", "42 million", "Infinite"], "c": 0}
+  {
+    "question": "What is the maximum supply of Bitcoin?",
+    "options": [
+      "21 million",
+      "42 million",
+      "Unlimited",
+      "10 million"
+    ],
+    "answer": 0,
+    "difficulty": [
+      "curious",
+      "bitcoiner"
+    ]
+  },
+  {
+    "question": "What is a UTXO?",
+    "options": [
+      "A used Bitcoin",
+      "An output that has not been spent",
+      "A mining device",
+      "A private key"
+    ],
+    "answer": 1,
+    "difficulty": [
+      "bitcoiner",
+      "satoshi"
+    ]
+  },
+  {
+    "question": "What does SHA-256 stand for?",
+    "options": [
+      "Super Hash Algorithm",
+      "Secure Hash Algorithm",
+      "Simple Hash Application",
+      "Satoshi Hash Architecture"
+    ],
+    "answer": 1,
+    "difficulty": [
+      "satoshi"
+    ]
+  }
 ]
