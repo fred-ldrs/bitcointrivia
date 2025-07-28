@@ -1,37 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Bitcoin Trivia Quiz</title>
+    <title>Bitcoin Quiz</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
-        <h1 id="title">Bitcoin Trivia Quiz</h1>
-        <div class="lang-select">
-            <label for="language">🌐</label>
-            <select id="language">
-                <option value="en">English</option>
-                <option value="de">Deutsch</option>
-            </select>
-        </div>
-        <div id="quiz-container">
-            <div id="question-box">
-                <h2 id="question">Loading...</h2>
-                <div id="answers"></div>
-            </div>
-            <div id="progress">0 / 21</div>
-        </div>
-        <div id="result-container" style="display:none;">
-            <h2 id="result-title"></h2>
-            <p id="result-score"></p>
-            <button onclick="location.reload()">🔄 Restart</button>
-        </div>
-        <footer>
-            <p><a href="https://boardgamegeek.com/boardgame/bitcoinrush" target="_blank">Check out the board game on BGG</a></p>
-        </footer>
+        <h1>Bitcoin Quiz</h1>
+        <label for="language">Language:</label>
+        <select id="language">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+        </select>
+        <label for="level">Level:</label>
+        <select id="level">
+            <option value="curious">🟢 Curious (leicht)</option>
+            <option value="bitcoiner">🟡 Bitcoiner (mittel)</option>
+            <option value="satoshi">🔴 Satoshi (schwer)</option>
+        </select>
+        <button onclick="startQuiz()">Start</button>
+        <div id="quiz"></div>
     </div>
-    <script src="script.js"></script>
+    <script src="quiz.js"></script>
 </body>
 </html>
