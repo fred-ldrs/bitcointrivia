@@ -4,6 +4,7 @@ let score = 0;
 let selectedLang = "de";
 let selectedLevel = "curious";
 let wrongAnswers = [];
+let amountQuestions = 5: //goal 21
 
 document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
 document.getElementById("level").addEventListener("change", (e) => selectedLevel = e.target.value);
@@ -12,7 +13,7 @@ async function loadQuestions() {
     const res = await fetch(`lang/${selectedLang}.json`);
     const data = await res.json();
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
-    while (filtered.length < 21) {
+    while (filtered.length < amountQuestions) {
         filtered.push(...filtered);
     }
     return shuffle(filtered).slice(0, 21);
