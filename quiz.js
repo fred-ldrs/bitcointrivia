@@ -7,22 +7,11 @@ let wrongAnswers = [];
 let amountQuestions = 5; //goal 21
 
 function setupQuizControls() {
-  //console.log("Setup Quiz Controls aufgerufen");
   document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
   document.getElementById("level").addEventListener("change", (e) => selectedLevel = e.target.value);
   document.getElementById("startButton").addEventListener("click", startQuiz);
-
-  //console.log({ langEl, levelEl, startBtn });
-
-  //if (langEl && levelEl && startBtn) {
-  //  langEl.addEventListener("change", (e) => selectedLang = e.target.value);
-  //  levelEl.addEventListener("change", (e) => selectedLevel = e.target.value);
-  //  startBtn.addEventListener("click", startQuiz);
-  //} else {
-  //  console.error("Fehler: Ein oder mehrere Elemente fehlen!");
-  //}
-  
 }
+
 
 async function loadQuestions() {
     const res = await fetch(`lang/${selectedLang}.json`);
@@ -104,3 +93,5 @@ function showResults() {
 
     document.getElementById("quiz").innerHTML = resultHTML;
 }
+
+window.setupQuizControls = setupQuizControls;
