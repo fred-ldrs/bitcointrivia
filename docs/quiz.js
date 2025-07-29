@@ -14,7 +14,8 @@ function setupQuizControls() {
 
 
 async function loadQuestions() {
-    const res = await fetch(`lang/${selectedLang}.json`);
+    //const res = await fetch(`lang/${selectedLang}.json`);
+    const res = await fetch(`../lang/${selectedLang}.json`); // same level /doc und /lang
     const data = await res.json();
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
     let extended = [...filtered];
