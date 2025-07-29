@@ -4,7 +4,7 @@ let score = 0;
 let selectedLang = "de";
 let selectedLevel = "curious";
 let wrongAnswers = [];
-let amountQuestions = 5: //goal 21
+let amountQuestions = 5; //goal 21
 
 document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
 document.getElementById("level").addEventListener("change", (e) => selectedLevel = e.target.value);
@@ -16,7 +16,7 @@ async function loadQuestions() {
     while (filtered.length < amountQuestions) {
         filtered.push(...filtered);
     }
-    return shuffle(filtered).slice(0, 21);
+    return shuffle(filtered).slice(0, amountQuestions);
 }
 
 function shuffle(array) {
