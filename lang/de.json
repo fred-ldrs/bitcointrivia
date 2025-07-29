@@ -40,4 +40,709 @@
       "satoshi"
     ]
   }
+  {
+      "question": "Wer hat Bitcoin erfunden?",
+      "options": [
+        "Vitalik Buterin",
+        "Elon Musk",
+        "Satoshi Nakamoto",
+        "Hal Finney"
+      ],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Private Key?",
+      "options": [
+        "Ein öffentlicher Schlüssel",
+        "Ein Passwort für die Wallet",
+        "Ein eindeutiger geheimer Schlüssel, der Transaktionen signiert",
+        "Ein QR-Code"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Was beschreibt ein 'Halving' bei Bitcoin?",
+      "options": [
+        "Die Blockchain wird halbiert",
+        "Die Transaktionsgebühren werden halbiert",
+        "Die Anzahl der neuen Bitcoins pro Block halbiert sich",
+        "Der Kurs wird halbiert"
+      ],
+      "answer": 2,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Wie viele Blöcke werden durchschnittlich pro Tag gefunden?",
+      "options": [
+        "6",
+        "100",
+        "144",
+        "288"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche Funktion hat ein Full Node?",
+      "options": [
+        "Er erstellt neue Bitcoins",
+        "Er validiert Transaktionen und Blöcke",
+        "Er handelt an der Börse",
+        "Er speichert nur Transaktionsdaten"
+      ],
+      "answer": 1,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Welche Einheit ist kleiner als ein Bitcoin?",
+      "options": [
+        "Satoshi",
+        "Litecoin",
+        "Nakamoto",
+        "Ethereum"
+      ],
+      "answer": 0,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie viele Satoshis hat ein Bitcoin?",
+      "options": [
+        "100.000",
+        "1 Million",
+        "10 Millionen",
+        "100 Millionen"
+      ],
+      "answer": 3,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Welche Eigenschaft ist NICHT typisch für Bitcoin?",
+      "options": [
+        "Dezentralität",
+        "Inflationär",
+        "Begrenztes Angebot",
+        "Zensurresistenz"
+      ],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist eine 51%-Attacke?",
+      "options": [
+        "Ein Hackerangriff auf Wallets",
+        "Ein Überlastungsangriff auf das Netzwerk",
+        "Wenn ein Miner über 51% der Hashrate kontrolliert",
+        "Wenn die Hälfte aller Nutzer Bitcoin verkauft"
+      ],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wie heißt das Protokoll, auf dem Bitcoin basiert?",
+      "options": [
+        "Proof of Stake",
+        "SHA-512",
+        "Proof of Work",
+        "Smart Contract"
+      ],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was passiert alle 210.000 Blöcke im Bitcoin-Netzwerk?",
+      "options": [
+        "Ein Hard Fork",
+        "Ein Netzwerk-Upgrade",
+        "Ein Halving",
+        "Ein Reset der Blockchain"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wer war Hal Finney?",
+      "options": [
+        "Ein Bitcoin-Gegner",
+        "Ein Entwickler und einer der ersten Bitcoin-Empfänger",
+        "Ein Miner aus China",
+        "Ein Politiker"
+      ],
+      "answer": 1,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Welches Unternehmen akzeptierte 2014 offiziell Bitcoin als Zahlungsmittel?",
+      "options": [
+        "Facebook",
+        "Microsoft",
+        "Amazon",
+        "Netflix"
+      ],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Welche Funktion erfüllt die Difficulty im Bitcoin-Netzwerk?",
+      "options": [
+        "Sie beeinflusst die Transaktionskosten",
+        "Sie bestimmt die Belohnung pro Block",
+        "Sie passt den Schwierigkeitsgrad des Minings an",
+        "Sie entscheidet über das Wallet-Guthaben"
+      ],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Welcher Begriff beschreibt das dauerhafte Hinzufügen von Blöcken zur Blockchain?",
+      "options": [
+        "Mining",
+        "Forking",
+        "Staking",
+        "Hashing"
+      ],
+      "answer": 0,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie oft wird ein neuer Bitcoin-Block im Durchschnitt gefunden?",
+      "options": [
+        "Alle 1 Minute",
+        "Alle 10 Minuten",
+        "Alle 30 Minuten",
+        "Jede Stunde"
+      ],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Soft Fork?",
+      "options": [
+        "Ein vollständiger Netzwerkausfall",
+        "Eine rückwärtskompatible Änderung im Protokoll",
+        "Eine neue Kryptowährung",
+        "Eine grafische Oberfläche für Wallets"
+      ],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was bedeutet 'HODL' im Bitcoin-Kontext?",
+      "options": [
+        "Hardware-On Demand Ledger",
+        "Ein Tippfehler für 'Hold'",
+        "Ein neuer Wallet-Typ",
+        "High Output Digital Ledger"
+      ],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Seed Phrase?",
+      "options": [
+        "Ein Passwort zum Minen",
+        "Eine Serie von Zufallszahlen für Mining",
+        "Ein Backup für eine Wallet",
+        "Ein Wallet-Typ"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche Rolle spielen Miner im Bitcoin-Netzwerk?",
+      "options": [
+        "Sie handeln mit Bitcoin",
+        "Sie verleihen Bitcoin",
+        "Sie validieren und sichern Transaktionen durch Rechenleistung",
+        "Sie speichern Wallets"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    }
+    {
+      "question": "Wer hat das Bitcoin-Whitepaper verfasst?",
+      "options": ["Elon Musk", "Satoshi Nakamoto", "Vitalik Buterin", "Hal Finney"],
+      "answer": 1,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Was passiert alle 210.000 Blöcke im Bitcoin-Netzwerk?",
+      "options": ["Mining wird verboten", "Der Block-Reward halbiert sich", "Alle Adressen werden zurückgesetzt", "Neues Whitepaper wird veröffentlicht"],
+      "answer": 1,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Wie viele Nachkommastellen hat 1 Bitcoin?",
+      "options": ["6", "8", "10", "12"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie nennt man die kleinste Einheit eines Bitcoins?",
+      "options": ["Finney", "Bitlet", "Satoshi", "Nakamoto"],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wann wurde der erste Bitcoin-Block (Genesis Block) gemined?",
+      "options": ["2008", "2009", "2010", "2011"],
+      "answer": 1,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Was enthält der Genesis Block als Nachricht?",
+      "options": [
+        "Satoshi is here",
+        "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+        "Bitcoin is born",
+        "Hello world"
+      ],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Welche Funktion hat ein Miner im Bitcoin-Netzwerk?",
+      "options": [
+        "Verwalten von Wallets",
+        "Versenden von E-Mails",
+        "Validieren und Hinzufügen von Transaktionen zur Blockchain",
+        "Handel mit Bitcoin"
+      ],
+      "answer": 2,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Was passiert, wenn ein Miner einen ungültigen Block veröffentlicht?",
+      "options": [
+        "Er erhält mehr Belohnung",
+        "Er wird permanent gebannt",
+        "Der Block wird vom Netzwerk abgelehnt",
+        "Der Block wird trotzdem gespeichert"
+      ],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wie groß war die Blockgröße im Bitcoin-Whitepaper vorgesehen?",
+      "options": ["1 MB", "10 MB", "0.5 MB", "unbegrenzt"],
+      "answer": 0,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Was ist eine Bitcoin-Adresse?",
+      "options": [
+        "Ein Gerät zur Aufbewahrung von Bitcoins",
+        "Ein Ort im echten Leben",
+        "Eine eindeutige Zeichenfolge zur Transaktionszuweisung",
+        "Der Name eines Miners"
+      ],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Private Key?",
+      "options": [
+        "Ein Passwort für das Wallet",
+        "Ein öffentlicher Schlüssel",
+        "Eine geheime Zahl zur Kontrolle über Bitcoins",
+        "Ein Mining-Code"
+      ],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche Programmiersprache wurde hauptsächlich für Bitcoin Core verwendet?",
+      "options": ["Python", "Rust", "C++", "Go"],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was ist ein Hard Fork?",
+      "options": [
+        "Ein Update, das abwärtskompatibel ist",
+        "Ein Netzwerk-Upgrade mit Konsensbruch",
+        "Ein neues Wallet",
+        "Ein Mining-Unfall"
+      ],
+      "answer": 1,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Welche dieser Plattformen ist KEIN Layer-2-Netzwerk?",
+      "options": ["Lightning", "Liquid", "Taproot", "Statechains"],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wie lange dauert es im Schnitt, bis ein neuer Block gefunden wird?",
+      "options": ["1 Minute", "10 Minuten", "30 Minuten", "1 Stunde"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Welche Hardware ist besonders effizient fürs Bitcoin-Mining?",
+      "options": ["CPU", "GPU", "FPGA", "ASIC"],
+      "answer": 3,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Wie viele Blöcke braucht eine Transaktion für 100% Sicherheit (üblich)?",
+      "options": ["1", "3", "6", "10"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie nennt man eine Transaktion, die noch nicht in einem Block ist?",
+      "options": ["Pending", "Floating", "Unconfirmed", "Ghost"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welches Land hat Bitcoin 2021 als gesetzliches Zahlungsmittel eingeführt?",
+      "options": ["Venezuela", "El Salvador", "Nigeria", "Island"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was beschreibt das Bitcoin-Halving?",
+      "options": [
+        "Eine Aufspaltung der Blockchain",
+        "Eine Halbierung des Gesamtangebots",
+        "Die Halbierung der Belohnung pro Block",
+        "Ein Rückgang der Transaktionskosten"
+      ],
+      "answer": 2,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Wer hat das Bitcoin-Whitepaper veröffentlicht?",
+      "options": ["Vitalik Buterin", "Hal Finney", "Satoshi Nakamoto", "Adam Back"],
+      "answer": 2,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Was ist ein Block im Kontext von Bitcoin?",
+      "options": ["Ein physischer Speicher", "Eine Mining-Hardware", "Ein Datensatz von Transaktionen", "Ein Wallet"],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was bedeutet 'HODL' in der Bitcoin-Community?",
+      "options": ["Hardware Operation Digital Ledger", "Hold On for Dear Life", "Hold Over Digital Limit", "Hybrid Online Distributed Ledger"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie lange dauert im Schnitt die Erzeugung eines neuen Blocks im Bitcoin-Netzwerk?",
+      "options": ["1 Minute", "10 Minuten", "30 Minuten", "1 Stunde"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist das Ziel von Mining?",
+      "options": ["Neue Wallets erzeugen", "Transaktionen validieren und neue Blöcke finden", "Bitcoin kaufen", "Hashes löschen"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Welche Belohnung erhält ein Miner aktuell (Stand 2024) pro Block?",
+      "options": ["12,5 BTC", "6,25 BTC", "3,125 BTC", "1 BTC"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was passiert bei einem Halving?",
+      "options": ["Bitcoin wird geteilt", "Die Blockgröße wird halbiert", "Die Blockbelohnung halbiert sich", "Alle Transaktionen werden gelöscht"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist ein 'Satoshi'?",
+      "options": ["Ein Bitcoin-Entwickler", "Die kleinste Einheit von Bitcoin", "Ein Altcoin", "Ein Smart Contract"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie viele Satoshi entsprechen 1 Bitcoin?",
+      "options": ["1.000", "100.000", "1.000.000", "100.000.000"],
+      "answer": 3,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche dieser Funktionen erfüllt Bitcoin NICHT direkt?",
+      "options": ["Zahlungsmittel", "Wertspeicher", "Smart Contracts", "Wertmaßstab"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist eine Seed Phrase?",
+      "options": ["Ein Transaktionscode", "Ein Verschlüsselungsalgorithmus", "Ein Backup für eine Wallet", "Ein Mining-Skript"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche dieser Börsen wurde 2014 gehackt?",
+      "options": ["Coinbase", "Binance", "Kraken", "Mt. Gox"],
+      "answer": 3,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist eine 'Full Node' im Bitcoin-Netzwerk?",
+      "options": ["Ein Wallet", "Ein Mining-Rig", "Ein vollständiger Netzwerkknoten mit vollständiger Blockchain-Kopie", "Ein Token"],
+      "answer": 2,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wie lautet der Algorithmus, der bei Bitcoin für Mining verwendet wird?",
+      "options": ["MD5", "SHA-1", "SHA-256", "Blake3"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wer war Hal Finney?",
+      "options": ["Ein Bitcoin-Kritiker", "Ein früher Unterstützer und Entwickler von Bitcoin", "Ein Börsenbetreiber", "Ein Finanzminister"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie wird die Schwierigkeit beim Bitcoin-Mining angepasst?",
+      "options": ["Gar nicht", "Automatisch alle 2016 Blöcke", "Täglich", "Nach jedem Halving"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Welche Art von Schlüssel wird für Bitcoin-Transaktionen verwendet?",
+      "options": ["Ein symmetrischer Schlüssel", "Ein API-Schlüssel", "Ein Public/Private Key Paar", "Ein Hash-Schlüssel"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was passiert, wenn man seine Private Keys verliert?",
+      "options": ["Die Bitcoins sind für immer verloren", "Man kann sie zurücksetzen", "Man erhält neue", "Die Blockchain wird aktualisiert"],
+      "answer": 0,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist ein Soft Fork?",
+      "options": ["Ein neues Wallet", "Ein Upgrade, das abwärtskompatibel ist", "Ein vollständiger Systemneustart", "Ein neues Mining-Protokoll"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was beschreibt 'Double Spending'?",
+      "options": ["Zweifaches Zahlen mit derselben Kreditkarte", "Geldwäsche mit Bitcoin", "Den Versuch, denselben Bitcoin zweimal auszugeben", "Zwei Wallets gleichzeitig nutzen"],
+      "answer": 2,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist Lightning Network?",
+      "options": ["Ein neues Wallet", "Ein Netzwerk für schnelle Off-Chain-Transaktionen", "Ein Mining-Pool", "Ein Verschlüsselungsprotokoll"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wie nennt man die Methode, bei der Transaktionen gruppiert und in Blöcke geschrieben werden?",
+      "options": ["Blockmining", "Blocktimestamping", "Blockbildung", "Batching"],
+      "answer": 3,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist der Genesis Block?",
+      "options": ["Der erste Block der Blockchain", "Ein Wallet-Name", "Ein Fehler in der Blockchain", "Ein Mining-Rig"],
+      "answer": 0,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist eine Paper Wallet?",
+      "options": ["Ein gedrucktes Backup der Private Keys", "Ein Wallet auf Papiergeld", "Ein Bitcoin-Fälschung", "Ein Wallet für Stablecoins"],
+      "answer": 0,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was beschreibt 'Proof of Work'?",
+      "options": ["Ein Konsensmechanismus, der Rechenleistung erfordert", "Ein Arbeitsvertrag", "Ein Wallet-Typ", "Ein Audit"],
+      "answer": 0,
+      "difficulty": ["curious", "bitcoiner"]
+    }
+    {
+      "question": "Was bedeutet HODL in der Bitcoin-Community?",
+      "options": ["Hold On for Dear Life", "Halt deine Bitcoins", "Häufige Order-Liste", "Hardware Only Device Ledger"],
+      "answer": 0,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Private Key?",
+      "options": ["Ein öffentlicher Code", "Ein geheimer Schlüssel zum Signieren von Transaktionen", "Ein Hardwaregerät", "Eine Mining-Firma"],
+      "answer": 1,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Welche Blockzeit strebt Bitcoin durchschnittlich an?",
+      "options": ["1 Minute", "10 Minuten", "60 Minuten", "24 Stunden"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie viele Nachkommastellen hat ein Bitcoin?",
+      "options": ["6", "8", "10", "2"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wer ist Satoshi Nakamoto?",
+      "options": ["Ein Pseudonym des Bitcoin-Erfinders", "Ein japanischer Unternehmer", "Eine Firma", "Ein Bot"],
+      "answer": 0,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist ein Block Reward?",
+      "options": ["Ein Preis für gute Miner", "Neue Bitcoins, die Miner für das Finden eines Blocks erhalten", "Ein Bug-Bounty", "Ein Transaktionslimit"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie viele Bitcoin werden pro Block aktuell generiert (Stand 2024)?",
+      "options": ["6.25 BTC", "3.125 BTC", "12.5 BTC", "1.5625 BTC"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was beschreibt die 'difficulty adjustment' im Bitcoin-Netzwerk?",
+      "options": ["Änderung der Transaktionsgebühren", "Anpassung der Mining-Schwierigkeit", "Wechsel der Blockgröße", "Änderung des Bitcoin-Preises"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was ist eine 'Seed Phrase'?",
+      "options": ["Ein Mining-Protokoll", "Eine Backup-Wortliste für Wallets", "Ein Bitcoin-Virus", "Ein neuer Konsens-Algorithmus"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie viele Wörter hat eine typische BIP39-Seed-Phrase?",
+      "options": ["12 oder 24", "5 oder 10", "33", "16 oder 20"],
+      "answer": 0,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was passiert bei einem 'Halving'?",
+      "options": ["Die Transaktionsgebühren halbieren sich", "Der Block Reward wird halbiert", "Die Blockchain wird geteilt", "Wallets werden geschlossen"],
+      "answer": 1,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Wie nennt man den kleinsten Bruchteil eines Bitcoin?",
+      "options": ["Bitlet", "Minibit", "Satoshi", "NanoBTC"],
+      "answer": 2,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Welche Eigenschaft macht Bitcoin unveränderbar?",
+      "options": ["Proof of Work", "Proof of Stake", "Zero-Knowledge-Proofs", "SSL-Zertifikate"],
+      "answer": 0,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Wie oft findet ein Bitcoin-Halving statt?",
+      "options": ["Alle 4 Jahre", "Jährlich", "Alle 10 Jahre", "Unregelmäßig"],
+      "answer": 0,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Welche der folgenden Aussagen beschreibt ein Full Node?",
+      "options": ["Ein Wallet auf dem Handy", "Ein Server, der alle Transaktionen prüft", "Ein Mining-Pool", "Eine Hardware Wallet"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was ist eine Layer-2-Lösung für Bitcoin?",
+      "options": ["Ein zweites Wallet", "Eine Alternative Blockchain", "Ein Protokoll zur Skalierung, z. B. Lightning", "Ein Cloud-Service"],
+      "answer": 2,
+      "difficulty": ["bitcoiner", "satoshi"]
+    },
+    {
+      "question": "Was beschreibt eine 'non-custodial' Wallet?",
+      "options": ["Sie ist kostenlos", "Sie verwahrt deine Coins selbst", "Sie benötigt KYC", "Sie gehört einer Bank"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Welche Rolle spielen Miner im Bitcoin-Netzwerk?",
+      "options": ["Sie vergeben neue Adressen", "Sie validieren und sichern das Netzwerk durch Rechenleistung", "Sie übertragen Coins", "Sie steuern den Preis"],
+      "answer": 1,
+      "difficulty": ["curious", "bitcoiner"]
+    },
+    {
+      "question": "Was ist die maximale Blockgröße im Bitcoin-Protokoll?",
+      "options": ["2 MB", "1 MB (ohne SegWit)", "10 MB", "256 KB"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was ist das Mempool?",
+      "options": ["Ein Mining-Pool", "Ein Speicher für noch nicht bestätigte Transaktionen", "Ein Wallet-Service", "Ein Sicherheitsprotokoll"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was sind satoshis?",
+      "options": ["Miner mit viel Hashrate", "Kleinste Einheit von Bitcoin", "Fehlgeschlagene Transaktionen", "Wallet-Passwörter"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Hot und Cold Wallets?",
+      "options": ["Temperatur", "Online- vs. Offline-Speicherung", "Größe des Wallets", "Wallet-Version"],
+      "answer": 1,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Was ist Taproot?",
+      "options": ["Ein neuer Konsensmechanismus", "Ein Bitcoin-Update zur Verbesserung von Datenschutz und Smart Contracts", "Ein Hardwaregerät", "Ein Wallet-Anbieter"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Wofür steht das Kürzel BTC?",
+      "options": ["Blockchain Token Code", "Bitcoin", "Bank Transfer Code", "Base Transaction Currency"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Wie viele Bitcoin gibt es maximal?",
+      "options": ["10 Mio.", "21 Mio.", "42 Mio.", "Unendlich viele"],
+      "answer": 1,
+      "difficulty": ["curious"]
+    },
+    {
+      "question": "Was ist eine 51%-Attacke?",
+      "options": ["Eine Steuer auf Bitcoin", "Ein Angriff, bei dem eine Gruppe die Mehrheit der Hashrate kontrolliert", "Ein Wallet-Diebstahl", "Eine neue Kryptomünze"],
+      "answer": 1,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was ist ein Soft Fork?",
+      "options": ["Ein Update mit Rückwärtskompatibilität", "Ein neues Wallet", "Eine vollständige Spaltung", "Ein Hardware-Ausfall"],
+      "answer": 0,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was passiert, wenn ein Miner zwei Blöcke gleichzeitig findet?",
+      "options": ["Das Netzwerk wählt den längeren Zweig", "Beide werden gespeichert", "Bitcoin wird gespalten", "Transaktionen gehen verloren"],
+      "answer": 0,
+      "difficulty": ["satoshi"]
+    },
+    {
+      "question": "Was sind satoshis wert, wenn 1 BTC = 30.000 € ist?",
+      "options": ["0,03 €", "0,3 €", "0,0003 €", "0,0000003 €"],
+      "answer": 0,
+      "difficulty": ["bitcoiner"]
+    },
+    {
+      "question": "Wie nennt man den Hash des vorherigen Blocks?",
+      "options": ["Genesis Hash", "Merkle Root", "Parent Hash", "Previous Block Hash"],
+      "answer": 3,
+      "difficulty": ["satoshi"]
+    }
 ]
