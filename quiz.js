@@ -30,6 +30,7 @@ async function startQuiz() {
     questions = await loadQuestions();
     currentQuestion = 0;
     score = 0;
+    wrongAnswers = [];
     showQuestion();
 }
 
@@ -44,34 +45,46 @@ function showQuestion() {
 
 function checkAnswer(answerIndex) {
     const question = questions[currentQuestion];
-    const correct = question.answer === answerIndex;
+    const isCorrect = question.answer === answerIndex;
 
-    if (correct) {
+    if (isCorrect) {
         score++;
     } else {
         wrongAnswers.push({
             question: question.question,
-            selected: question.options[answerIndex],
-            correct: question.options[question.answer]
+            correctAnswer: question.options[question.answer],
+            yourAnswer: question.options[answerIndex]
         });
     }
 
     currentQuestion++;
 
-    if (currentQuestion < 21) {
+    if (currentQuestion < questions.length) {
         showQuestion();
     } else {
-        let resultHTML = `<h2>Score: ${score}/21</h2>` +
-            `<p>${score >= 18 ? "🟢 Satoshi-Level!" : score >= 12 ? "🟡 Bitcoiner-Level" : "🔴 Curious-Level"}</p>`;
-
-        if (wrongAnswers.length > 0) {
-            resultHTML += `<h3>Falsche Antworten:</h3><ul>`;
-            wrongAnswers.forEach(w => {
-                resultHTML += `<li><b>${w.question}</b><br>Deine Antwort: ❌ ${w.selected}<br>Richtig: ✅ ${w.correct}</li><br>`;
-            });
-            resultHTML += `</ul>`;
-        }
-
-        document.getElementById("quiz").innerHTML = resultHTML;
+        showResults();
     }
+}
+
+function showResults() {
+    let resultHTML = `<h2>Score: ${score}/${questions.length}</h2>`;
+    resultHTML += `<p>${score >= 18 ? "🟢 Satoshi-Level!" : score >= 12 ? "🟡 Bitcoiner-Level" : "🔴 Curious-Level"}</p>`;
+
+    if (wrongAnswers.length > 0) {
+        resultHTML += "<h3>Falsche Antworten:</h3><ul>";
+        wrongAnswers.forEach((item, index) => {
+            resultHTML += `
+                <li>
+                    <strong>Frage ${index + 1}:</strong> ${item.question}<br>
+                    <strong>Deine Antwort:</strong> ${item.yourAnswer}<br>
+                    <strong>Richtige Antwort:</strong> ${item.correctAnswer}
+                </li><br>
+            `;
+        });
+        resultHTML += "</ul>";
+    } else {
+        resultHTML += "<p>Perfekt! 🎉 Du hast alles richtig beantwortet.</p>";
+    }
+
+    document.getElementById("quiz").innerHTML = resultHTML;
 }
