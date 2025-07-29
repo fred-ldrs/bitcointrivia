@@ -8,44 +8,45 @@
     <title>Bitcoin Quiz</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+    
 <body>
-    <!-- Password prompt until an imprint and privacy policy are available. Not for security purposes. -->
-    <script>
-        const password = prompt("Enter password to access the Bitcoin Trivia site:");
-        if(password !== "pow") {
-          document.body.innerHTML = "<h2>Access denied</h2>";
-        }
-    </script>
+  <div id="password-overlay" style="
+    position: fixed; top:0; left:0; width:100vw; height:100vh; background:#000a; 
+    color: white; display:flex; flex-direction: column; justify-content: center; align-items: center; z-index:9999;
+  ">
+    <label for="password-input" style="margin-bottom: 0.5em;">Enter password to access Bitcoin Trivia:</label>
+    <input id="password-input" type="password" autofocus />
+    <button id="password-submit" style="margin-top: 1em;">Submit</button>
+    <p id="password-error" style="color: red; display: none; margin-top: 1em;">Access denied</p>
+  </div>
 
-    <div class="container">
-        <h1>Bitcoin Quiz</h1>
-        <label for="language">Language:</label>
-        <select id="language">
-            <option value="de">Deutsch</option>
-            <option value="en">English</option>
-        </select>
-        <label for="level">Level:</label>
-        <select id="level">
-            <option value="curious">🟢 Curious (leicht)</option>
-            <option value="bitcoiner">🟡 Bitcoiner (mittel)</option>
-            <option value="satoshi">🔴 Satoshi (schwer)</option>
-        </select>
-        <button id="startButton">Start</button>
-        <div id="quiz"></div>
+  <div class="container" style="display:none;">
+    <!-- Dein Quiz Content hier -->
+  </div>
 
-        <footer style="margin-top: 2em; text-align: center;">
-            <a href="https://boardgamegeek.com/boardgame/451160/bitcoin-trivia"
-                target="_blank" rel="noopener noreferrer"
-                style="text-decoration: none; font-weight: bold; font-size: 1.1em; color: #f7931a;">
-                View "Bitcoin Trivia" on BoardGameGeek
-            </a>
-            &copy; 2025 bitcointrivia.org
-        </footer>
-        
-    </div>
+  <script>
+    const overlay = document.getElementById('password-overlay');
+    const container = document.querySelector('.container');
+    const input = document.getElementById('password-input');
+    const btn = document.getElementById('password-submit');
+    const errorMsg = document.getElementById('password-error');
+    const correctPassword = 'pow';
 
-    <script src="quiz.js"></script>    
+    btn.addEventListener('click', () => {
+      if (input.value === correctPassword) {
+        overlay.style.display = 'none';
+        container.style.display = 'block';
+      } else {
+        errorMsg.style.display = 'block';
+        input.value = '';
+        input.focus();
+      }
+    });
+
+    input.addEventListener('keypress', e => {
+      if(e.key === 'Enter') btn.click();
+    });
+  </script>
 </body>
-
     
 </html>
