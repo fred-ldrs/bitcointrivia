@@ -36,6 +36,7 @@
       if (input.value === correctPassword) {
         overlay.style.display = 'none';
         container.style.display = 'block';
+        setupQuizControls(); // Eventlistener setzen NACH Sichtbarmachen
       } else {
         errorMsg.style.display = 'block';
         input.value = '';
