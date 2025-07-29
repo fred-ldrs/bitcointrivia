@@ -8,6 +8,8 @@ let amountQuestions = 5; //goal 21
 
 document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
 document.getElementById("level").addEventListener("change", (e) => selectedLevel = e.target.value);
+document.getElementById("startButton").addEventListener("click", startQuiz);
+
 
 async function loadQuestions() {
     const res = await fetch(`lang/${selectedLang}.json`);
