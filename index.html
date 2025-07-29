@@ -10,10 +10,10 @@
 </head>
     
 <body>
-  <div id="password-overlay" style="
-    position: fixed; top:0; left:0; width:100vw; height:100vh; background:#000a; 
-    color: white; display:flex; flex-direction: column; justify-content: center; align-items: center; z-index:9999;
-  ">
+    <div id="password-overlay" style="
+        position: fixed; top:0; left:0; width:100vw; height:100vh; background:#000a; 
+        color: white; display:flex; flex-direction: column; justify-content: center; align-items: center; z-index:9999;
+      ">
     <label for="password-input" style="margin-bottom: 0.5em;">Enter password to access Bitcoin Trivia:</label>
     <input id="password-input" type="password" autofocus />
     <button id="password-submit" style="margin-top: 1em;">Submit</button>
@@ -21,9 +21,25 @@
   </div>
 
   <div class="container" style="display:none;">
-    <!-- Dein Quiz Content hier -->
+    <!-- Quiz Content -->
+    <h1>Bitcoin Quiz</h1>
+    <label for="language">Language:</label>
+    <select id="language">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+    </select>
+    <label for="level">Level:</label>
+    <select id="level">
+        <option value="curious">🟢 Curious (leicht)</option>
+        <option value="bitcoiner">🟡 Bitcoiner (mittel)</option>
+        <option value="satoshi">🔴 Satoshi (schwer)</option>
+    </select>
+    <button id="startButton">Start</button>
+    <div id="quiz"></div>
   </div>
 
+  <script src="quiz.js"></script>
+    
   <script>
     const overlay = document.getElementById('password-overlay');
     const container = document.querySelector('.container');
