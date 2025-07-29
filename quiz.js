@@ -17,10 +17,11 @@ async function loadQuestions() {
     const res = await fetch(`lang/${selectedLang}.json`);
     const data = await res.json();
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
-    while (filtered.length < maxQuestionsPerQuiz) {
-        filtered.push(...filtered);
+    let extended = [...filtered];
+    while (extended.length < maxQuestionsPerQuiz) {
+        extended.push(...shuffle(filtered));
     }
-    return shuffle(filtered).slice(0, maxQuestionsPerQuiz);
+    return shuffle(extended).slice(0, maxQuestionsPerQuiz);
 }
 
 function shuffle(array) {
@@ -72,8 +73,15 @@ function checkAnswer(answerIndex) {
 }
 
 function showResults() {
+    let level;
+    const percentage = score / questions.length;
+    
+    if (percentage >= 0.85) level = "🟢 Satoshi-Level!";
+    else if (percentage >= 0.6) level = "🟡 Bitcoiner-Level";
+    else level = "🔴 Curious-Level";
+
     let resultHTML = `<h2>Score: ${score}/${questions.length}</h2>`;
-    resultHTML += `<p>${score >= 18 ? "🟢 Satoshi-Level!" : score >= 12 ? "🟡 Bitcoiner-Level" : "🔴 Curious-Level"}</p>`;
+    resultHTML += `<p>${level}</p>`;
 
     if (wrongAnswers.length > 0) {
         resultHTML += "<h3>Falsche Antworten:</h3><ul>";
