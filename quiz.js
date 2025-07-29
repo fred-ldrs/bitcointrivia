@@ -4,7 +4,7 @@ let score = 0;
 let selectedLang = "de";
 let selectedLevel = "curious";
 let wrongAnswers = [];
-let amountQuestions = 5; //goal 21
+let maxQuestionsPerQuiz  = 5; //goal 21
 
 function setupQuizControls() {
   document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
@@ -17,10 +17,10 @@ async function loadQuestions() {
     const res = await fetch(`lang/${selectedLang}.json`);
     const data = await res.json();
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
-    while (filtered.length < amountQuestions) {
+    while (filtered.length < maxQuestionsPerQuiz) {
         filtered.push(...filtered);
     }
-    return shuffle(filtered).slice(0, amountQuestions);
+    return shuffle(filtered).slice(0, maxQuestionsPerQuiz);
 }
 
 function shuffle(array) {
@@ -42,7 +42,7 @@ async function startQuiz() {
 function showQuestion() {
     const q = questions[currentQuestion];
     const container = document.getElementById("quiz");
-    container.innerHTML = `<p><b>${currentQuestion + 1}/21:</b> ${q.question}</p>` +
+    container.innerHTML = `<p><b>${currentQuestion + 1}/${maxQuestionsPerQuiz}:</b> ${q.question}</p>` +
         q.options.map((opt, i) =>
             `<button onclick="checkAnswer(${i})">${opt}</button>`
         ).join("<br>");
