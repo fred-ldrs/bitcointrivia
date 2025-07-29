@@ -1,9 +1,9 @@
-
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
 let selectedLang = "de";
 let selectedLevel = "curious";
+let wrongAnswers = [];
 
 document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
 document.getElementById("level").addEventListener("change", (e) => selectedLevel = e.target.value);
@@ -43,14 +43,35 @@ function showQuestion() {
 }
 
 function checkAnswer(answerIndex) {
-    const correct = questions[currentQuestion].answer === answerIndex;
-    if (correct) score++;
+    const question = questions[currentQuestion];
+    const correct = question.answer === answerIndex;
+
+    if (correct) {
+        score++;
+    } else {
+        wrongAnswers.push({
+            question: question.question,
+            selected: question.options[answerIndex],
+            correct: question.options[question.answer]
+        });
+    }
+
     currentQuestion++;
+
     if (currentQuestion < 21) {
         showQuestion();
     } else {
-        document.getElementById("quiz").innerHTML =
-            `<h2>Score: ${score}/21</h2>` +
+        let resultHTML = `<h2>Score: ${score}/21</h2>` +
             `<p>${score >= 18 ? "🟢 Satoshi-Level!" : score >= 12 ? "🟡 Bitcoiner-Level" : "🔴 Curious-Level"}</p>`;
+
+        if (wrongAnswers.length > 0) {
+            resultHTML += `<h3>Falsche Antworten:</h3><ul>`;
+            wrongAnswers.forEach(w => {
+                resultHTML += `<li><b>${w.question}</b><br>Deine Antwort: ❌ ${w.selected}<br>Richtig: ✅ ${w.correct}</li><br>`;
+            });
+            resultHTML += `</ul>`;
+        }
+
+        document.getElementById("quiz").innerHTML = resultHTML;
     }
 }
