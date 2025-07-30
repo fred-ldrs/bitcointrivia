@@ -117,13 +117,17 @@ footer {
   font-size: 0.8rem;
   text-align: center;
   color: #888;
-  width: 100%;
-  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
 }
 
 footer a {
   color: var(--bitcoin-orange);
   text-decoration: none;
+  margin: 0 0.5em;
+  display: inline-block;
 }
 
 .quiz-logo {
