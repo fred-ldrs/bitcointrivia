@@ -19,20 +19,23 @@ html, body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--bitcoin-dark);
   color: var(--bitcoin-light);
   font-family: var(--font-family);
-  margin: 0;
-  padding: 0;
   min-height: 100vh;
+}
+
+.main-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 40px;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
-  margin: 0 auto; /* zentriert horizontal */
+  flex: 1;
+  margin: 40px auto 0 auto;
   background-color: var(--bitcoin-grey);
   border-radius: 16px;
   padding: 30px;
@@ -40,8 +43,6 @@ body {
   max-width: 700px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   border: 1px solid var(--bitcoin-border);
-  margin: 40px auto auto auto; /* ersetzt padding-top in body */
-  flex: 1 0 auto; /* Wächst, damit Footer nach unten gedrückt wird */
 }
 
 h1, h2, h3 {
@@ -126,14 +127,10 @@ button:hover {
 }
 
 footer {
-  font-size: 0.8rem;
   text-align: center;
   color: #888;
-  max-width: 100%;
-  overflow-wrap: break-word;
-  margin: 30px auto 10px auto;
   padding: 1em;
-  flex-shrink: 0;
+  font-size: 0.8rem;
 }
 
 footer a {
