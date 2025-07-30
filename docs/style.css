@@ -125,3 +125,10 @@ footer a {
   color: var(--bitcoin-orange);
   text-decoration: none;
 }
+
+.quiz-logo {
+  display: block;
+  margin: 0 auto 10px auto; /* zentriert + Abstand nach unten */
+  max-width: 100px;         /* je nach Geschmack */
+  height: auto;
+}
