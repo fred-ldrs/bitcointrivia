@@ -43,7 +43,14 @@
       </div>
     
       <script src="quiz.js"></script>
-        
+
+      <script>
+          const container = document.querySelector('.container');
+          container.style.display = 'block';
+          setupQuizControls(); // ruft dein Quiz-Setup auf
+      </script>
+
+      <!--
       <script>
         const overlay = document.getElementById('password-overlay');
         const container = document.querySelector('.container');
@@ -68,6 +75,7 @@
           if(e.key === 'Enter') btn.click();
         });
       </script>
+      -->
     
     <footer>
       <div>
