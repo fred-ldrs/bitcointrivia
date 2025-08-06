@@ -1,5 +1,6 @@
 # card_generator.py
 import json
+import sys
 from pathlib import Path
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
@@ -51,7 +52,7 @@ def generate_pdf(questions, output_path):
 
 
 if __name__ == "__main__":
-    input_path = Path("../doc/lang/de.json")
+    input_path = sys.argv[1] if len(sys.argv) > 1 else "../doc/lang/de.json"
     output_path = Path("cards_de.pdf")
     questions = load_questions(input_path)
     generate_pdf(questions[:27], output_path)
