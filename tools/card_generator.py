@@ -51,7 +51,7 @@ def generate_pdf(questions, output_path):
 
 
 if __name__ == "__main__":
-    input_path = Path("../lang/de.json")
+    input_path = Path("../doc/lang/de.json")
     output_path = Path("cards_de.pdf")
     questions = load_questions(input_path)
     generate_pdf(questions[:27], output_path)
