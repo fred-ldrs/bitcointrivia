@@ -768,10 +768,471 @@
     "category": "Bitcoin-Geschichte und Adoption"
   },
   {
-    "question": "Was ist der Zweck    ],
+    "question": "Was ist der Zweck eines 'Hardware-Wallets'?",
+    "options": [
+      "Mining betreiben",
+      "Sichere Offline-Speicherung von Private Keys",
+      "Transaktionen handeln",
+      "Blöcke speichern"
+    ],
     "answer": 1,
-    "difficulty": [
-      "satoshi"
-    ]
+    "difficulty": "bitcoiner",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Nonce' in einem Bitcoin-Block?",
+    "options": [
+      "Ein Transaktionscode",
+      "Ein Wert, der beim Mining angepasst wird, um den Hash zu finden",
+      "Ein Wallet-Backup",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "bitcoiner",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein 'Orphan Block'?",
+    "options": [
+      "Ein Block ohne Transaktionen",
+      "Ein Block, der nicht in die Hauptchain aufgenommen wurde",
+      "Ein Block ohne Miner",
+      "Ein Block mit ungültigen Transaktionen"
+    ],
+    "answer": 1,
+    "difficulty": "bitcoiner",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist das Ziel von Fedimint im Bitcoin-Ökosystem?",
+    "options": [
+      "Neue Bitcoins erzeugen",
+      "Dezentrale Verwahrung und Transaktionen ermöglichen",
+      "Smart Contracts einführen",
+      "Mining-Pools verwalten"
+    ],
+    "answer": 1,
+    "difficulty": "bitcoiner",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Wofür steht SHA-256?",
+    "options": [
+      "Super Hash Algorithm",
+      "Secure Hash Algorithm",
+      "Simple Hash Application",
+      "Satoshi Hash Architecture"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist eine 51%-Attacke?",
+    "options": [
+      "Ein Hackerangriff auf Wallets",
+      "Ein Überlastungsangriff auf das Netzwerk",
+      "Wenn ein Miner über 51% der Hashrate kontrolliert",
+      "Wenn die Hälfte aller Nutzer Bitcoin verkauft"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Warum ist Proof of Work energieintensiv?",
+    "options": [
+      "Es verwendet Smart Contracts",
+      "Es erfordert komplexe Hash-Berechnungen",
+      "Es speichert Transaktionen",
+      "Es verschlüsselt Private Keys"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein Taproot-Upgrade?",
+    "options": [
+      "Ein Update zur Erhöhung der Blockgröße",
+      "Ein Update zur Verbesserung der Privatsphäre und Skalierbarkeit",
+      "Ein Update zur Einführung von Smart Contracts",
+      "Ein Update zur Reduzierung der Mining-Schwierigkeit"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was enthält der Genesis Block als Nachricht?",
+    "options": [
+      "Satoshi is here",
+      "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+      "Bitcoin is born",
+      "Hello world"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Bitcoin-Geschichte und Adoption"
+  },
+  {
+    "question": "Welche Funktion erfüllt die Difficulty im Bitcoin-Netzwerk?",
+    "options": [
+      "Sie beeinflusst die Transaktionskosten",
+      "Sie bestimmt die Belohnung pro Block",
+      "Sie passt den Schwierigkeitsgrad des Minings an",
+      "Sie entscheidet über das Wallet-Guthaben"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein Soft Fork?",
+    "options": [
+      "Ein vollständiger Netzwerkausfall",
+      "Eine rückwärtskompatible Änderung im Protokoll",
+      "Eine neue Kryptowährung",
+      "Eine grafische Oberfläche für Wallets"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Welche Programmiersprache wurde hauptsächlich für Bitcoin Core verwendet?",
+    "options": [
+      "Python",
+      "Rust",
+      "C++",
+      "Go"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein Hard Fork?",
+    "options": [
+      "Ein Update, das abwärtskompatibel ist",
+      "Ein Netzwerk-Upgrade mit Konsensbruch",
+      "Ein neues Wallet",
+      "Ein Mining-Unfall"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Welche dieser Plattformen ist KEIN Layer-2-Netzwerk?",
+    "options": [
+      "Lightning",
+      "Liquid",
+      "Taproot",
+      "Statechains"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was passiert, wenn ein Miner einen ungültigen Block veröffentlicht?",
+    "options": [
+      "Er erhält mehr Belohnung",
+      "Er wird permanent gebannt",
+      "Der Block wird vom Netzwerk abgelehnt",
+      "Der Block wird trotzdem gespeichert"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Wie groß war die Blockgröße im Bitcoin-Whitepaper vorgesehen?",
+    "options": [
+      "1 MB",
+      "10 MB",
+      "0.5 MB",
+      "unbegrenzt"
+    ],
+    "answer": 0,
+    "difficulty": "satoshi",
+    "category": "Bitcoin-Geschichte und Adoption"
+  },
+  {
+    "question": "Was ist ein Multisig-Wallet?",
+    "options": [
+      "Ein Wallet mit mehreren Währungen",
+      "Ein Wallet, das mehrere Unterschriften für Transaktionen benötigt",
+      "Ein Wallet für Mining",
+      "Ein Wallet mit integriertem Exchange"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Wie wird die Schwierigkeit beim Bitcoin-Mining angepasst?",
+    "options": [
+      "Gar nicht",
+      "Automatisch alle 2016 Blöcke",
+      "Täglich",
+      "Nach jedem Halving"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Welcher Algorithmus wird für Bitcoin-Mining verwendet?",
+    "options": [
+      "MD5",
+      "SHA-1",
+      "SHA-256",
+      "Blake3"
+    ],
+    "answer": 2,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein 'ScriptSig' in einer Bitcoin-Transaktion?",
+    "options": [
+      "Ein Mining-Skript",
+      "Ein Skript zur Freigabe eines UTXO",
+      "Ein Wallet-Backup",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Locktime' in Bitcoin?",
+    "options": [
+      "Transaktionen sofort ausführen",
+      "Transaktionen zu einem bestimmten Zeitpunkt freigeben",
+      "Blöcke sperren",
+      "Wallets verschlüsseln"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'SPV Wallet' (Simplified Payment Verification)?",
+    "options": [
+      "Ein Wallet für Mining",
+      "Ein Wallet, das nur Block-Header überprüft",
+      "Ein Wallet für Smart Contracts",
+      "Ein Wallet für Börsen"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'CheckSequenceVerify' (CSV)?",
+    "options": [
+      "Transaktionen sofort bestätigen",
+      "Relative Zeitverzögerungen für Transaktionen festlegen",
+      "Blöcke löschen",
+      "Wallets sichern"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Sidechain' im Bitcoin-Kontext?",
+    "options": [
+      "Eine alternative Blockchain, die mit Bitcoin verbunden ist",
+      "Ein Mining-Pool",
+      "Ein Wallet-Typ",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 0,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Bloom Filters' in Bitcoin?",
+    "options": [
+      "Transaktionen filtern",
+      "Privatsphäre für SPV-Wallets verbessern",
+      "Blöcke schneller finden",
+      "Gebühren berechnen"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'CoinJoin'?",
+    "options": [
+      "Ein Mining-Pool",
+      "Eine Methode zur Erhöhung der Privatsphäre durch Mischen von Transaktionen",
+      "Ein Wallet-Typ",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Tapscript' im Taproot-Upgrade?",
+    "options": [
+      "Ein neues Mining-Protokoll",
+      "Ein Skriptsprache für komplexere Transaktionen",
+      "Ein Wallet-Backup",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Hash Time Locked Contract' (HTLC)?",
+    "options": [
+      "Wallets sichern",
+      "Zeitgebundene Zahlungen im Lightning-Netzwerk ermöglichen",
+      "Blöcke schneller finden",
+      "Transaktionen löschen"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Schnorr-Signatur'-Schema?",
+    "options": [
+      "Ein Mining-Algorithmus",
+      "Eine effizientere Signaturmethode im Taproot-Upgrade",
+      "Ein Wallet-Typ",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Difficulty Target' in Bitcoin?",
+    "options": [
+      "Transaktionen validieren",
+      "Den Schwierigkeitsgrad für das Mining eines Blocks festlegen",
+      "Wallets sichern",
+      "Gebühren berechnen"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein 'Chain Reorganization' in Bitcoin?",
+    "options": [
+      "Ein neues Wallet erstellen",
+      "Wenn eine längere Blockchain eine kürzere ersetzt",
+      "Ein Mining-Pool",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist der Zweck eines 'OP_RETURN' in Bitcoin?",
+    "options": [
+      "Transaktionen signieren",
+      "Kleine Datenmengen in die Blockchain einfügen",
+      "Blöcke löschen",
+      "Wallets sichern"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Statechain' im Bitcoin-Kontext?",
+    "options": [
+      "Ein Mining-Algorithmus",
+      "Eine Methode zur Off-Chain-Übertragung von UTXOs",
+      "Ein Wallet-Typ",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Child Pays for Parent' (CPFP)?",
+    "options": [
+      "Ein neues Wallet erstellen",
+      "Eine unbestätigte Transaktion durch eine mit höherer Gebühr beschleunigen",
+      "Blöcke schneller finden",
+      "Wallets sichern"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist ein 'Confidential Transaction' im Bitcoin-Kontext?",
+    "options": [
+      "Eine Transaktion mit versteckten Beträgen",
+      "Eine Transaktion ohne Gebühren",
+      "Eine Transaktion für Mining",
+      "Eine Transaktion für Wallets"
+    ],
+    "answer": 0,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'Block Subsidy'?",
+    "options": [
+      "Transaktionen speichern",
+      "Die Belohnung für Miner für das Finden eines Blocks",
+      "Wallets sichern",
+      "Gebühren berechnen"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Proof of Work und Mining"
+  },
+  {
+    "question": "Was ist ein 'Pruned Node' im Bitcoin-Netzwerk?",
+    "options": [
+      "Ein Knoten mit vollständiger Blockchain",
+      "Ein Knoten mit reduzierten historischen Daten",
+      "Ein Mining-Knoten",
+      "Ein Wallet-Knoten"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist der Zweck eines 'CheckLockTimeVerify' (CLTV)?",
+    "options": [
+      "Transaktionen sofort ausführen",
+      "Absolute Zeitverzögerungen für Transaktionen festlegen",
+      "Blöcke löschen",
+      "Wallets sichern"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
+  },
+  {
+    "question": "Was ist Ark im Bitcoin-Ökosystem?",
+    "options": [
+      "Ein Mining-Protokoll",
+      "Eine Skalierungslösung für vertrauensminimierte Transaktionen",
+      "Ein Wallet-Typ",
+      "Ein Sicherheitsprotokoll"
+    ],
+    "answer": 1,
+    "difficulty": "satoshi",
+    "category": "Technik und Sicherheit"
   }
 ]
