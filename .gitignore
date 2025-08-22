@@ -1,0 +1,21 @@
+# Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Other files/folders to ignore
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Visual Studio Code settings
+.vscode/
