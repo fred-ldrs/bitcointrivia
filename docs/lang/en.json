@@ -1,18 +1,18 @@
 [
   {
-    "question": "Was ist das maximale Angebot an Bitcoin?",
+    "question": "What is the maximum supply of Bitcoin?",
     "options": [
-      "21 Millionen",
-      "42 Millionen",
-      "21 Billionen",
-      "210 Millionen"
+      "21 Million",
+      "42 Million",
+      "21 Billion",
+      "210 Million"
     ],
     "answer": 0,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Wer hat Bitcoin erfunden?",
+    "question": "Who invented Bitcoin?",
     "options": [
       "Vitalik Buterin",
       "Elon Musk",
@@ -21,34 +21,34 @@
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist der Hauptzweck von Proof of Work in Bitcoin?",
+    "question": "What is the primary purpose of Proof of Work in Bitcoin?",
     "options": [
-      "Bitcoins drucken",
-      "Transaktionen validieren durch Rechenleistung",
-      "Wallets sichern",
-      "Gebühren senken"
+      "Printing Bitcoins",
+      "Validating transactions through computational power",
+      "Securing wallets",
+      "Lowering fees"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist eine Bitcoin-Adresse?",
+    "question": "What is a Bitcoin address?",
     "options": [
-      "Ein Gerät zur Aufbewahrung von Bitcoins",
-      "Ein temporärer Transaktionscode",
-      "Eine eindeutige Zeichenfolge zur Transaktionszuweisung",
-      "Der Name eines Miners"
+      "A device for storing Bitcoins",
+      "A temporary transaction code",
+      "A unique string for transaction assignment",
+      "The name of a miner"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was bedeutet 'HODL' in der Bitcoin-Community?",
+    "question": "What does 'HODL' mean in the Bitcoin community?",
     "options": [
       "Hardware Operation Digital Ledger",
       "Hold On for Dear Life",
@@ -57,22 +57,22 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist eine Blockchain?",
+    "question": "What is a blockchain?",
     "options": [
-      "Ein zentraler Server",
-      "Eine verkettete Liste von Blöcken mit Transaktionen",
-      "Ein Mining-Algorithmus",
-      "Ein Wallet-Typ"
+      "A central server",
+      "A linked list of blocks containing transactions",
+      "A mining algorithm",
+      "A type of wallet"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welches Konsensprotokoll verwendet Bitcoin für Mining?",
+    "question": "Which consensus protocol does Bitcoin use for mining?",
     "options": [
       "Proof of Stake",
       "Delegated Proof of Stake",
@@ -81,22 +81,22 @@
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Welches Land hat 2021 Bitcoin als gesetzliches Zahlungsmittel eingeführt?",
+    "question": "Which country adopted Bitcoin as legal tender in 2021?",
     "options": [
       "Venezuela",
       "El Salvador",
       "Nigeria",
-      "Island"
+      "Iceland"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Welches Symbol wird für Bitcoin verwendet?",
+    "question": "Which symbol is used for Bitcoin?",
     "options": [
       "$",
       "₿",
@@ -105,22 +105,22 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist eine Wallet im Bitcoin-Kontext?",
+    "question": "What is a wallet in the Bitcoin context?",
     "options": [
-      "Eine physische Münze",
-      "Software oder Hardware zur Verwaltung von Bitcoin-Schlüsseln",
-      "Ein Mining-Tool",
-      "Ein Börsenkonto"
+      "A physical coin",
+      "Software or hardware for managing Bitcoin keys",
+      "A mining tool",
+      "An exchange account"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welches Jahr markiert den Start des Bitcoin-Netzwerks?",
+    "question": "Which year marked the start of the Bitcoin network?",
     "options": [
       "2007",
       "2008",
@@ -129,94 +129,94 @@
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Warum ist Bitcoin dezentralisiert?",
+    "question": "Why is Bitcoin decentralized?",
     "options": [
-      "Es wird von einer Bank kontrolliert",
-      "Es wird von vielen Knoten weltweit betrieben",
-      "Es hat nur einen Server",
-      "Es ist an eine Regierung gebunden"
+      "It is controlled by a bank",
+      "It is operated by many nodes worldwide",
+      "It has only one server",
+      "It is tied to a government"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welches afrikanische Land hat eine hohe Bitcoin-Adoption durch Peer-to-Peer-Handel?",
+    "question": "Which African country has high Bitcoin adoption through peer-to-peer trading?",
     "options": [
-      "Kenia",
+      "Kenya",
       "Nigeria",
-      "Äthiopien",
-      "Algerien"
+      "Ethiopia",
+      "Algeria"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was beschreibt ein 'Halving' bei Bitcoin?",
+    "question": "What does a 'Halving' describe in Bitcoin?",
     "options": [
-      "Die Blockchain wird halbiert",
-      "Die Transaktionsgebühren werden halbiert",
-      "Die Anzahl der neuen Bitcoins pro Block halbiert sich",
-      "Der Kurs wird halbiert"
+      "The blockchain is halved",
+      "Transaction fees are halved",
+      "The number of new Bitcoins per block is halved",
+      "The price is halved"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein Satoshi?",
+    "question": "What is a Satoshi?",
     "options": [
-      "Ein Bitcoin-Entwickler",
-      "Die kleinste Einheit von Bitcoin",
-      "Ein Altcoin",
-      "Ein Smart Contract"
+      "A Bitcoin developer",
+      "The smallest unit of Bitcoin",
+      "An altcoin",
+      "A smart contract"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Welche Eigenschaft ist NICHT typisch für Bitcoin?",
+    "question": "Which characteristic is NOT typical for Bitcoin?",
     "options": [
-      "Dezentralität",
-      "Inflationär",
-      "Begrenztes Angebot",
-      "Zensurresistenz"
+      "Decentralization",
+      "Inflationary",
+      "Limited supply",
+      "Censorship resistance"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie oft wird im Durchschnitt ein neuer Bitcoin-Block gefunden?",
+    "question": "How often is a new Bitcoin block found on average?",
     "options": [
-      "Alle 1 Minute",
-      "Alle 10 Minuten",
-      "Alle 30 Minuten",
-      "Jede Stunde"
+      "Every 1 minute",
+      "Every 10 minutes",
+      "Every 30 minutes",
+      "Every hour"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist der Zweck eines Bitcoin-Whitepapers?",
+    "question": "What is the purpose of the Bitcoin whitepaper?",
     "options": [
-      "Ein Marketingdokument",
-      "Eine technische Beschreibung von Bitcoin",
-      "Ein Gesetzestext",
-      "Ein Preisprognose-Modell"
+      "A marketing document",
+      "A technical description of Bitcoin",
+      "A legal text",
+      "A price prediction model"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Welches Unternehmen akzeptierte 2014 offiziell Bitcoin als Zahlungsmittel?",
+    "question": "Which company officially accepted Bitcoin as a payment method in 2014?",
     "options": [
       "Facebook",
       "Microsoft",
@@ -225,94 +225,94 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist ein Bitcoin-Exchange?",
+    "question": "What is a Bitcoin exchange?",
     "options": [
-      "Ein Mining-Pool",
-      "Eine Plattform zum Kaufen und Verkaufen von Bitcoin",
-      "Ein Wallet-Provider",
-      "Ein Gesetzgeber"
+      "A mining pool",
+      "A platform for buying and selling Bitcoin",
+      "A wallet provider",
+      "A regulator"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist ein Peer-to-Peer-Netzwerk bei Bitcoin?",
+    "question": "What is a peer-to-peer network in Bitcoin?",
     "options": [
-      "Ein zentraler Server",
-      "Ein Netzwerk ohne zentrale Autorität",
-      "Ein Mining-Pool",
-      "Ein Börsensystem"
+      "A central server",
+      "A network without central authority",
+      "A mining pool",
+      "An exchange system"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche Art von Währung ist Bitcoin?",
+    "question": "What type of currency is Bitcoin?",
     "options": [
-      "Fiat-Währung",
-      "Kryptowährung",
-      "Goldbasiert",
-      "Aktienbasiert"
+      "Fiat currency",
+      "Cryptocurrency",
+      "Gold-based",
+      "Stock-based"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist eine Transaktionsgebühr bei Bitcoin?",
+    "question": "What is a transaction fee in Bitcoin?",
     "options": [
-      "Eine Steuer an die Regierung",
-      "Ein Betrag, den Miner für die Verarbeitung erhalten",
-      "Ein Abonnement für Wallets",
-      "Ein Marketingkostenbeitrag"
+      "A tax to the government",
+      "An amount miners receive for processing",
+      "A wallet subscription",
+      "A marketing cost contribution"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Hauptunterschied zwischen Bitcoin und traditionellem Geld?",
+    "question": "What is the main difference between Bitcoin and traditional money?",
     "options": [
-      "Bitcoin ist physisch",
-      "Bitcoin ist zentralisiert",
-      "Bitcoin ist digital und dezentralisiert",
-      "Bitcoin hat keinen Wert"
+      "Bitcoin is physical",
+      "Bitcoin is centralized",
+      "Bitcoin is digital and decentralized",
+      "Bitcoin has no value"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was bedeutet 'To the Moon' in der Bitcoin-Community?",
+    "question": "What does 'To the Moon' mean in the Bitcoin community?",
     "options": [
-      "Ein neues Wallet",
-      "Ein Ausdruck für steigende Kurse",
-      "Ein Mining-Protokoll",
-      "Ein Sicherheitsfeature"
+      "A new wallet",
+      "An expression for rising prices",
+      "A mining protocol",
+      "A security feature"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist ein Block im Kontext von Bitcoin?",
+    "question": "What is a block in the context of Bitcoin?",
     "options": [
-      "Ein physischer Speicher",
-      "Eine Mining-Hardware",
-      "Ein Datensatz von Transaktionen",
-      "Ein Wallet"
+      "A physical storage",
+      "A mining hardware",
+      "A record of transactions",
+      "A wallet"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wer veröffentlichte das Bitcoin-Whitepaper?",
+    "question": "Who published the Bitcoin whitepaper?",
     "options": [
       "Vitalik Buterin",
       "Satoshi Nakamoto",
@@ -321,70 +321,70 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist der Zweck eines Public Keys?",
+    "question": "What is the purpose of a public key?",
     "options": [
-      "Transaktionen signieren",
-      "Bitcoin empfangen",
-      "Mining betreiben",
-      "Wallets erstellen"
+      "Signing transactions",
+      "Receiving Bitcoin",
+      "Mining",
+      "Creating wallets"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was bedeutet 'Permissionless' bei Bitcoin?",
+    "question": "What does 'permissionless' mean in Bitcoin?",
     "options": [
-      "Niemand kann Bitcoin nutzen",
-      "Jeder kann ohne Erlaubnis teilnehmen",
-      "Nur Miner können Transaktionen senden",
-      "Nur Regierungen können Bitcoin nutzen"
+      "Nobody can use Bitcoin",
+      "Anyone can participate without permission",
+      "Only miners can send transactions",
+      "Only governments can use Bitcoin"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist das Ziel von Mining im Bitcoin-Netzwerk?",
+    "question": "What is the goal of mining in the Bitcoin network?",
     "options": [
-      "Neue Wallets erzeugen",
-      "Transaktionen validieren und neue Blöcke finden",
-      "Bitcoin kaufen",
-      "Hashes löschen"
+      "Generating new wallets",
+      "Validating transactions and finding new blocks",
+      "Buying Bitcoin",
+      "Deleting hashes"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Wie viele Satoshis entsprechen 1 Bitcoin?",
+    "question": "How many Satoshis correspond to 1 Bitcoin?",
     "options": [
-      "100.000",
+      "100,000",
       "1 Million",
-      "10 Millionen",
-      "100 Millionen"
+      "10 Million",
+      "100 Million"
     ],
     "answer": 3,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Welche Funktion erfüllt Bitcoin NICHT direkt?",
+    "question": "Which function does Bitcoin NOT directly fulfill?",
     "options": [
-      "Zahlungsmittel",
-      "Wertspeicher",
-      "Smart Contracts",
-      "Wertmaßstab"
+      "Means of payment",
+      "Store of value",
+      "Smart contracts",
+      "Unit of account"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie viele Nachkommastellen hat 1 Bitcoin?",
+    "question": "How many decimal places does 1 Bitcoin have?",
     "options": [
       "6",
       "8",
@@ -393,58 +393,58 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist das Ziel der Bitcoin-Community 'Laser Eyes'?",
+    "question": "What is the goal of the Bitcoin community's 'Laser Eyes'?",
     "options": [
-      "Ein Sicherheitsprotokoll",
-      "Ein Meme für steigende Kurse",
-      "Ein Mining-Tool",
-      "Ein Wallet-Typ"
+      "A security protocol",
+      "A meme for rising prices",
+      "A mining tool",
+      "A wallet type"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist ein UTXO (Unspent Transaction Output)?",
+    "question": "What is a UTXO (Unspent Transaction Output)?",
     "options": [
-      "Ein gebrauchter Bitcoin",
-      "Ein Output, der noch nicht ausgegeben wurde",
-      "Ein Mining-Gerät",
-      "Ein geheimer Schlüssel"
+      "A used Bitcoin",
+      "An output that has not yet been spent",
+      "A mining device",
+      "A secret key"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie trägt Proof of Work zur Sicherheit der Bitcoin-Blockchain bei?",
+    "question": "How does Proof of Work contribute to the security of the Bitcoin blockchain?",
     "options": [
-      "Es verschlüsselt Wallets",
-      "Es macht Angriffe wie Double-Spending teuer",
-      "Es senkt Transaktionsgebühren",
-      "Es erstellt neue Bitcoins"
+      "It encrypts wallets",
+      "It makes attacks like double-spending expensive",
+      "It lowers transaction fees",
+      "It creates new Bitcoins"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein Private Key?",
+    "question": "What is a private key?",
     "options": [
-      "Ein öffentlicher Schlüssel",
-      "Ein Passwort für die Wallet",
-      "Ein eindeutiger geheimer Schlüssel, der Transaktionen signiert",
-      "Ein QR-Code"
+      "A public key",
+      "A password for the wallet",
+      "A unique secret key that signs transactions",
+      "A QR code"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche Börse wurde 2014 gehackt und verlor viele Bitcoins?",
+    "question": "Which exchange was hacked in 2014 and lost many Bitcoins?",
     "options": [
       "Coinbase",
       "Binance",
@@ -453,22 +453,22 @@
     ],
     "answer": 3,
     "difficulty": "bitcoiner",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist das Ziel des Lightning-Netzwerks?",
+    "question": "What is the purpose of the Lightning Network?",
     "options": [
-      "Bitcoin-Mining",
-      "Schnellere und günstigere Transaktionen",
-      "Smart Contracts",
-      "Datenspeicherung"
+      "Bitcoin mining",
+      "Faster and cheaper transactions",
+      "Smart contracts",
+      "Data storage"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie viele Blöcke werden durchschnittlich pro Tag im Bitcoin-Netzwerk gefunden?",
+    "question": "How many blocks are found on average per day in the Bitcoin network?",
     "options": [
       "6",
       "100",
@@ -477,34 +477,34 @@
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was passiert alle 210.000 Blöcke im Bitcoin-Netzwerk?",
+    "question": "What happens every 210,000 blocks in the Bitcoin network?",
     "options": [
-      "Ein Hard Fork",
-      "Ein Netzwerk-Upgrade",
-      "Die Blockbelohnung halbiert sich (Halving)",
-      "Ein Reset der Blockchain"
+      "A hard fork",
+      "A network upgrade",
+      "The block reward is halved (Halving)",
+      "A blockchain reset"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Wer war Hal Finney?",
+    "question": "Who was Hal Finney?",
     "options": [
-      "Ein Bitcoin-Gegner",
-      "Ein Entwickler und einer der ersten Bitcoin-Empfänger",
-      "Ein Miner aus China",
-      "Ein Politiker"
+      "A Bitcoin opponent",
+      "A developer and one of the first Bitcoin recipients",
+      "A miner from China",
+      "A politician"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Wann wurde der erste Bitcoin-Block (Genesis Block) gemined?",
+    "question": "When was the first Bitcoin block (Genesis Block) mined?",
     "options": [
       "2008",
       "2009",
@@ -513,34 +513,34 @@
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist eine Seed Phrase (Wiederherstellungsphrase)?",
+    "question": "What is a seed phrase (recovery phrase)?",
     "options": [
-      "Ein Transaktionscode",
-      "Ein Verschlüsselungsalgorithmus",
-      "Ein Backup für eine Wallet",
-      "Ein Mining-Skript"
+      "A transaction code",
+      "An encryption algorithm",
+      "A backup for a wallet",
+      "A mining script"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche Rolle spielen Miner im Bitcoin-Netzwerk?",
+    "question": "What role do miners play in the Bitcoin network?",
     "options": [
-      "Sie handeln mit Bitcoin",
-      "Sie verleihen Bitcoin",
-      "Sie validieren und sichern Transaktionen durch Rechenleistung",
-      "Sie speichern Wallets"
+      "They trade Bitcoin",
+      "They lend Bitcoin",
+      "They validate and secure transactions through computational power",
+      "They store wallets"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Welche Hardware ist besonders effizient fürs Bitcoin-Mining?",
+    "question": "Which hardware is particularly efficient for Bitcoin mining?",
     "options": [
       "CPU",
       "GPU",
@@ -549,10 +549,10 @@
     ],
     "answer": 3,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Wie viele Blöcke braucht eine Transaktion üblicherweise für hohe Sicherheit?",
+    "question": "How many blocks does a transaction usually need for high security?",
     "options": [
       "1",
       "3",
@@ -561,10 +561,10 @@
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie nennt man eine Transaktion, die noch nicht in einem Block ist?",
+    "question": "What is a transaction that has not yet been included in a block called?",
     "options": [
       "Pending",
       "Floating",
@@ -573,250 +573,250 @@
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Cold Wallet'?",
+    "question": "What is a 'cold wallet'?",
     "options": [
-      "Ein Wallet, das offline gehalten wird",
-      "Ein Wallet mit niedrigen Gebühren",
-      "Ein Wallet für Mining",
-      "Ein Wallet mit integriertem Exchange"
+      "A wallet kept offline",
+      "A wallet with low fees",
+      "A wallet for mining",
+      "A wallet with an integrated exchange"
     ],
     "answer": 0,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche Belohnung erhält ein Miner aktuell (Stand 2024) pro Block?",
+    "question": "What is the current (as of 2024) reward for miners per block?",
     "options": [
-      "12,5 BTC",
-      "6,25 BTC",
-      "3,125 BTC",
+      "12.5 BTC",
+      "6.25 BTC",
+      "3.125 BTC",
       "1 BTC"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein Merkle Tree in der Bitcoin-Blockchain?",
+    "question": "What is a Merkle Tree in the Bitcoin blockchain?",
     "options": [
-      "Ein Mining-Algorithmus",
-      "Eine Struktur zur effizienten Speicherung von Transaktionen",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "A mining algorithm",
+      "A structure for efficiently storing transactions",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Mempool' im Bitcoin-Netzwerk?",
+    "question": "What is a 'mempool' in the Bitcoin network?",
     "options": [
-      "Ein Speicher für neue Blöcke",
-      "Ein Pool für Miner",
-      "Ein Speicher für unbestätigte Transaktionen",
-      "Ein Wallet-Backup"
+      "A storage for new blocks",
+      "A pool for miners",
+      "A storage for unconfirmed transactions",
+      "A wallet backup"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Time Lock' in Bitcoin-Transaktionen?",
+    "question": "What is the purpose of a 'time lock' in Bitcoin transactions?",
     "options": [
-      "Transaktionen sofort ausführen",
-      "Transaktionen zu einem späteren Zeitpunkt freigeben",
-      "Transaktionen löschen",
-      "Wallets sperren"
+      "Executing transactions immediately",
+      "Releasing transactions at a later time",
+      "Deleting transactions",
+      "Locking wallets"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Replace-by-Fee' (RBF)?",
+    "question": "What is a 'Replace-by-Fee' (RBF)?",
     "options": [
-      "Ein neues Wallet erstellen",
-      "Eine Transaktion mit höherer Gebühr ersetzen",
-      "Ein Mining-Protokoll",
-      "Ein Sicherheitsupdate"
+      "Creating a new wallet",
+      "Replacing a transaction with a higher fee",
+      "A mining protocol",
+      "A security update"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines Mining-Pools?",
+    "question": "What is the purpose of a mining pool?",
     "options": [
-      "Bitcoins kaufen",
-      "Rechenleistung bündeln, um Blöcke schneller zu finden",
-      "Wallets speichern",
-      "Transaktionen handeln"
+      "Buying Bitcoins",
+      "Combining computational power to find blocks faster",
+      "Storing wallets",
+      "Trading transactions"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Fork' in der Bitcoin-Blockchain?",
+    "question": "What is a 'fork' in the Bitcoin blockchain?",
     "options": [
-      "Eine neue Wallet",
-      "Eine Aufspaltung der Blockchain",
-      "Ein Mining-Tool",
-      "Ein Sicherheitsprotokoll"
+      "A new wallet",
+      "A split in the blockchain",
+      "A mining tool",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist eine 'Hot Wallet'?",
+    "question": "What is a 'hot wallet'?",
     "options": [
-      "Ein Wallet, das offline ist",
-      "Ein Wallet, das online verbunden ist",
-      "Ein Wallet für Mining",
-      "Ein Wallet mit niedrigen Gebühren"
+      "A wallet that is offline",
+      "A wallet that is connected online",
+      "A wallet for mining",
+      "A wallet with low fees"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Watch-Only Wallet'?",
+    "question": "What is the purpose of a 'watch-only wallet'?",
     "options": [
-      "Nur Mining betreiben",
-      "Nur Transaktionen anzeigen, ohne sie zu signieren",
-      "Nur Bitcoins kaufen",
-      "Nur Blöcke speichern"
+      "Only conducting mining",
+      "Only displaying transactions without signing them",
+      "Only buying Bitcoins",
+      "Only storing blocks"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist die 'Blockzeit' bei Bitcoin?",
+    "question": "What is the 'block time' in Bitcoin?",
     "options": [
-      "Die Zeit, um eine Transaktion zu senden",
-      "Die durchschnittliche Zeit, um einen neuen Block zu finden",
-      "Die Zeit, um eine Wallet zu erstellen",
-      "Die Zeit für ein Halving"
+      "The time to send a transaction",
+      "The average time to find a new block",
+      "The time to create a wallet",
+      "The time for a halving"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Dust Limit' bei Bitcoin?",
+    "question": "What is a 'dust limit' in Bitcoin?",
     "options": [
-      "Die minimale Transaktionsgebühr",
-      "Die kleinste ausgabefähige Menge eines UTXO",
-      "Die maximale Blockgröße",
-      "Die minimale Mining-Leistung"
+      "The minimum transaction fee",
+      "The smallest spendable amount of a UTXO",
+      "The maximum block size",
+      "The minimum mining power"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck der 'Difficulty Adjustment'?",
+    "question": "What is the purpose of the 'difficulty adjustment'?",
     "options": [
-      "Transaktionsgebühren senken",
-      "Die Blockzeit bei etwa 10 Minuten halten",
-      "Die Blockgröße erhöhen",
-      "Wallets sichern"
+      "Lowering transaction fees",
+      "Keeping the block time around 10 minutes",
+      "Increasing the block size",
+      "Securing wallets"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Paper Wallet'?",
+    "question": "What is a 'paper wallet'?",
     "options": [
-      "Ein Wallet auf Papier mit Schlüsseln",
-      "Ein Wallet für Mining",
-      "Ein digitales Wallet",
-      "Ein Wallet für Transaktionen"
+      "A wallet on paper with keys",
+      "A wallet for mining",
+      "A digital wallet",
+      "A wallet for transactions"
     ],
     "answer": 0,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Block Headers'?",
+    "question": "What is the purpose of a 'block header'?",
     "options": [
-      "Transaktionen speichern",
-      "Die Integrität eines Blocks überprüfen",
-      "Wallets sichern",
-      "Mining-Leistung erhöhen"
+      "Storing transactions",
+      "Verifying the integrity of a block",
+      "Securing wallets",
+      "Increasing mining power"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welches Land hat 2022 Bitcoin als gesetzliches Zahlungsmittel eingeführt?",
+    "question": "Which country adopted Bitcoin as legal tender in 2022?",
     "options": [
-      "Zentralafrikanische Republik",
+      "Central African Republic",
       "Panama",
-      "Kuba",
-      "Argentinien"
+      "Cuba",
+      "Argentina"
     ],
     "answer": 0,
     "difficulty": "bitcoiner",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist der Zweck eines 'Hardware-Wallets'?",
+    "question": "What is the purpose of a 'hardware wallet'?",
     "options": [
-      "Mining betreiben",
-      "Sichere Offline-Speicherung von Private Keys",
-      "Transaktionen handeln",
-      "Blöcke speichern"
+      "Conducting mining",
+      "Secure offline storage of private keys",
+      "Trading transactions",
+      "Storing blocks"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Nonce' in einem Bitcoin-Block?",
+    "question": "What is a 'nonce' in a Bitcoin block?",
     "options": [
-      "Ein Transaktionscode",
-      "Ein Wert, der beim Mining angepasst wird, um den Hash zu finden",
-      "Ein Wallet-Backup",
-      "Ein Sicherheitsprotokoll"
+      "A transaction code",
+      "A value adjusted during mining to find the hash",
+      "A wallet backup",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Orphan Block'?",
+    "question": "What is an 'orphan block'?",
     "options": [
-      "Ein Block ohne Transaktionen",
-      "Ein Block, der nicht in die Hauptchain aufgenommen wurde",
-      "Ein Block ohne Miner",
-      "Ein Block mit ungültigen Transaktionen"
+      "A block without transactions",
+      "A block not included in the main chain",
+      "A block without a miner",
+      "A block with invalid transactions"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist das Ziel von Fedimint im Bitcoin-Ökosystem?",
+    "question": "What is the goal of Fedimint in the Bitcoin ecosystem?",
     "options": [
-      "Neue Bitcoins erzeugen",
-      "Dezentrale Verwahrung und Transaktionen ermöglichen",
-      "Smart Contracts einführen",
-      "Mining-Pools verwalten"
+      "Generating new Bitcoins",
+      "Enabling decentralized custody and transactions",
+      "Introducing smart contracts",
+      "Managing mining pools"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wofür steht SHA-256?",
+    "question": "What does SHA-256 stand for?",
     "options": [
       "Super Hash Algorithm",
       "Secure Hash Algorithm",
@@ -825,46 +825,46 @@
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist eine 51%-Attacke?",
+    "question": "What is a 51% attack?",
     "options": [
-      "Ein Hackerangriff auf Wallets",
-      "Ein Überlastungsangriff auf das Netzwerk",
-      "Wenn ein Miner über 51% der Hashrate kontrolliert",
-      "Wenn die Hälfte aller Nutzer Bitcoin verkauft"
+      "A hacker attack on wallets",
+      "An overload attack on the network",
+      "When a miner controls over 51% of the hash rate",
+      "When half of all users sell Bitcoin"
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Warum ist Proof of Work energieintensiv?",
+    "question": "Why is Proof of Work energy-intensive?",
     "options": [
-      "Es verwendet Smart Contracts",
-      "Es erfordert komplexe Hash-Berechnungen",
-      "Es speichert Transaktionen",
-      "Es verschlüsselt Private Keys"
+      "It uses smart contracts",
+      "It requires complex hash calculations",
+      "It stores transactions",
+      "It encrypts private keys"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein Taproot-Upgrade?",
+    "question": "What is the Taproot upgrade?",
     "options": [
-      "Ein Update zur Erhöhung der Blockgröße",
-      "Ein Update zur Verbesserung der Privatsphäre und Skalierbarkeit",
-      "Ein Update zur Einführung von Smart Contracts",
-      "Ein Update zur Reduzierung der Mining-Schwierigkeit"
+      "An update to increase block size",
+      "An update to improve privacy and scalability",
+      "An update to introduce smart contracts",
+      "An update to reduce mining difficulty"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was enthält der Genesis Block als Nachricht?",
+    "question": "What message does the Genesis Block contain?",
     "options": [
       "Satoshi is here",
       "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
@@ -873,34 +873,34 @@
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Welche Funktion erfüllt die Difficulty im Bitcoin-Netzwerk?",
+    "question": "What is the function of difficulty in the Bitcoin network?",
     "options": [
-      "Sie beeinflusst die Transaktionskosten",
-      "Sie bestimmt die Belohnung pro Block",
-      "Sie passt den Schwierigkeitsgrad des Minings an",
-      "Sie entscheidet über das Wallet-Guthaben"
+      "It affects transaction costs",
+      "It determines the reward per block",
+      "It adjusts the mining difficulty",
+      "It decides the wallet balance"
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein Soft Fork?",
+    "question": "What is a soft fork?",
     "options": [
-      "Ein vollständiger Netzwerkausfall",
-      "Eine rückwärtskompatible Änderung im Protokoll",
-      "Eine neue Kryptowährung",
-      "Eine grafische Oberfläche für Wallets"
+      "A complete network failure",
+      "A backward-compatible protocol change",
+      "A new cryptocurrency",
+      "A graphical interface for wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche Programmiersprache wurde hauptsächlich für Bitcoin Core verwendet?",
+    "question": "Which programming language was primarily used for Bitcoin Core?",
     "options": [
       "Python",
       "Rust",
@@ -909,22 +909,22 @@
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein Hard Fork?",
+    "question": "What is a hard fork?",
     "options": [
-      "Ein Update, das abwärtskompatibel ist",
-      "Ein Netzwerk-Upgrade mit Konsensbruch",
-      "Ein neues Wallet",
-      "Ein Mining-Unfall"
+      "An update that is backward-compatible",
+      "A network upgrade that breaks consensus",
+      "A new wallet",
+      "A mining accident"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Welche dieser Plattformen ist KEIN Layer-2-Netzwerk?",
+    "question": "Which of these platforms is NOT a Layer-2 network?",
     "options": [
       "Lightning",
       "Liquid",
@@ -933,58 +933,58 @@
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was passiert, wenn ein Miner einen ungültigen Block veröffentlicht?",
+    "question": "What happens if a miner publishes an invalid block?",
     "options": [
-      "Er erhält mehr Belohnung",
-      "Er wird permanent gebannt",
-      "Der Block wird vom Netzwerk abgelehnt",
-      "Der Block wird trotzdem gespeichert"
+      "They receive a higher reward",
+      "They are permanently banned",
+      "The block is rejected by the network",
+      "The block is still stored"
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Wie groß war die Blockgröße im Bitcoin-Whitepaper vorgesehen?",
+    "question": "What block size was specified in the Bitcoin whitepaper?",
     "options": [
       "1 MB",
       "10 MB",
       "0.5 MB",
-      "unbegrenzt"
+      "unlimited"
     ],
     "answer": 0,
     "difficulty": "satoshi",
-    "category": "Bitcoin-Geschichte und Adoption"
+    "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Was ist ein Multisig-Wallet?",
+    "question": "What is a multisig wallet?",
     "options": [
-      "Ein Wallet mit mehreren Währungen",
-      "Ein Wallet, das mehrere Unterschriften für Transaktionen benötigt",
-      "Ein Wallet für Mining",
-      "Ein Wallet mit integriertem Exchange"
+      "A wallet with multiple currencies",
+      "A wallet requiring multiple signatures for transactions",
+      "A wallet for mining",
+      "A wallet with an integrated exchange"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Wie wird die Schwierigkeit beim Bitcoin-Mining angepasst?",
+    "question": "How is the difficulty adjusted in Bitcoin mining?",
     "options": [
-      "Gar nicht",
-      "Automatisch alle 2016 Blöcke",
-      "Täglich",
-      "Nach jedem Halving"
+      "Not at all",
+      "Automatically every 2016 blocks",
+      "Daily",
+      "After each halving"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Welcher Algorithmus wird für Bitcoin-Mining verwendet?",
+    "question": "Which algorithm is used for Bitcoin mining?",
     "options": [
       "MD5",
       "SHA-1",
@@ -993,246 +993,246 @@
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'ScriptSig' in einer Bitcoin-Transaktion?",
+    "question": "What is a 'ScriptSig' in a Bitcoin transaction?",
     "options": [
-      "Ein Mining-Skript",
-      "Ein Skript zur Freigabe eines UTXO",
-      "Ein Wallet-Backup",
-      "Ein Sicherheitsprotokoll"
+      "A mining script",
+      "A script to unlock a UTXO",
+      "A wallet backup",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Locktime' in Bitcoin?",
+    "question": "What is the purpose of a 'locktime' in Bitcoin?",
     "options": [
-      "Transaktionen sofort ausführen",
-      "Transaktionen zu einem bestimmten Zeitpunkt freigeben",
-      "Blöcke sperren",
-      "Wallets verschlüsseln"
+      "Executing transactions immediately",
+      "Releasing transactions at a specific time",
+      "Locking blocks",
+      "Encrypting wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'SPV Wallet' (Simplified Payment Verification)?",
+    "question": "What is an 'SPV Wallet' (Simplified Payment Verification)?",
     "options": [
-      "Ein Wallet für Mining",
-      "Ein Wallet, das nur Block-Header überprüft",
-      "Ein Wallet für Smart Contracts",
-      "Ein Wallet für Börsen"
+      "A wallet for mining",
+      "A wallet that only verifies block headers",
+      "A wallet for smart contracts",
+      "A wallet for exchanges"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'CheckSequenceVerify' (CSV)?",
+    "question": "What is the purpose of a 'CheckSequenceVerify' (CSV)?",
     "options": [
-      "Transaktionen sofort bestätigen",
-      "Relative Zeitverzögerungen für Transaktionen festlegen",
-      "Blöcke löschen",
-      "Wallets sichern"
+      "Confirming transactions immediately",
+      "Setting relative time delays for transactions",
+      "Deleting blocks",
+      "Securing wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Sidechain' im Bitcoin-Kontext?",
+    "question": "What is a 'sidechain' in the Bitcoin context?",
     "options": [
-      "Eine alternative Blockchain, die mit Bitcoin verbunden ist",
-      "Ein Mining-Pool",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "An alternative blockchain linked to Bitcoin",
+      "A mining pool",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 0,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Bloom Filters' in Bitcoin?",
+    "question": "What is the purpose of a 'Bloom Filter' in Bitcoin?",
     "options": [
-      "Transaktionen filtern",
-      "Privatsphäre für SPV-Wallets verbessern",
-      "Blöcke schneller finden",
-      "Gebühren berechnen"
+      "Filtering transactions",
+      "Improving privacy for SPV wallets",
+      "Finding blocks faster",
+      "Calculating fees"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'CoinJoin'?",
+    "question": "What is a 'CoinJoin'?",
     "options": [
-      "Ein Mining-Pool",
-      "Eine Methode zur Erhöhung der Privatsphäre durch Mischen von Transaktionen",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "A mining pool",
+      "A method to increase privacy by mixing transactions",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Tapscript' im Taproot-Upgrade?",
+    "question": "What is a 'Tapscript' in the Taproot upgrade?",
     "options": [
-      "Ein neues Mining-Protokoll",
-      "Ein Skriptsprache für komplexere Transaktionen",
-      "Ein Wallet-Backup",
-      "Ein Sicherheitsprotokoll"
+      "A new mining protocol",
+      "A scripting language for more complex transactions",
+      "A wallet backup",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Hash Time Locked Contract' (HTLC)?",
+    "question": "What is the purpose of a 'Hash Time Locked Contract' (HTLC)?",
     "options": [
-      "Wallets sichern",
-      "Zeitgebundene Zahlungen im Lightning-Netzwerk ermöglichen",
-      "Blöcke schneller finden",
-      "Transaktionen löschen"
+      "Securing wallets",
+      "Enabling time-bound payments in the Lightning Network",
+      "Finding blocks faster",
+      "Deleting transactions"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Schnorr-Signatur'-Schema?",
+    "question": "What is a 'Schnorr Signature' scheme?",
     "options": [
-      "Ein Mining-Algorithmus",
-      "Eine effizientere Signaturmethode im Taproot-Upgrade",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "A mining algorithm",
+      "A more efficient signature method in the Taproot upgrade",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Difficulty Target' in Bitcoin?",
+    "question": "What is the purpose of a 'Difficulty Target' in Bitcoin?",
     "options": [
-      "Transaktionen validieren",
-      "Den Schwierigkeitsgrad für das Mining eines Blocks festlegen",
-      "Wallets sichern",
-      "Gebühren berechnen"
+      "Validating transactions",
+      "Setting the difficulty level for mining a block",
+      "Securing wallets",
+      "Calculating fees"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Chain Reorganization' in Bitcoin?",
+    "question": "What is a 'Chain Reorganization' in Bitcoin?",
     "options": [
-      "Ein neues Wallet erstellen",
-      "Wenn eine längere Blockchain eine kürzere ersetzt",
-      "Ein Mining-Pool",
-      "Ein Sicherheitsprotokoll"
+      "Creating a new wallet",
+      "When a longer blockchain replaces a shorter one",
+      "A mining pool",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist der Zweck eines 'OP_RETURN' in Bitcoin?",
+    "question": "What is the purpose of an 'OP_RETURN' in Bitcoin?",
     "options": [
-      "Transaktionen signieren",
-      "Kleine Datenmengen in die Blockchain einfügen",
-      "Blöcke löschen",
-      "Wallets sichern"
+      "Signing transactions",
+      "Inserting small amounts of data into the blockchain",
+      "Deleting blocks",
+      "Securing wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Statechain' im Bitcoin-Kontext?",
+    "question": "What is a 'Statechain' in the Bitcoin context?",
     "options": [
-      "Ein Mining-Algorithmus",
-      "Eine Methode zur Off-Chain-Übertragung von UTXOs",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "A mining algorithm",
+      "A method for off-chain UTXO transfers",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Child Pays for Parent' (CPFP)?",
+    "question": "What is the purpose of a 'Child Pays for Parent' (CPFP)?",
     "options": [
-      "Ein neues Wallet erstellen",
-      "Eine unbestätigte Transaktion durch eine mit höherer Gebühr beschleunigen",
-      "Blöcke schneller finden",
-      "Wallets sichern"
+      "Creating a new wallet",
+      "Speeding up an unconfirmed transaction with a higher fee",
+      "Finding blocks faster",
+      "Securing wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist ein 'Confidential Transaction' im Bitcoin-Kontext?",
+    "question": "What is a 'Confidential Transaction' in the Bitcoin context?",
     "options": [
-      "Eine Transaktion mit versteckten Beträgen",
-      "Eine Transaktion ohne Gebühren",
-      "Eine Transaktion für Mining",
-      "Eine Transaktion für Wallets"
+      "A transaction with hidden amounts",
+      "A transaction without fees",
+      "A transaction for mining",
+      "A transaction for wallets"
     ],
     "answer": 0,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'Block Subsidy'?",
+    "question": "What is the purpose of a 'Block Subsidy'?",
     "options": [
-      "Transaktionen speichern",
-      "Die Belohnung für Miner für das Finden eines Blocks",
-      "Wallets sichern",
-      "Gebühren berechnen"
+      "Storing transactions",
+      "The reward for miners for finding a block",
+      "Securing wallets",
+      "Calculating fees"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Proof of Work und Mining"
+    "category": "Proof of Work and Mining"
   },
   {
-    "question": "Was ist ein 'Pruned Node' im Bitcoin-Netzwerk?",
+    "question": "What is a 'Pruned Node' in the Bitcoin network?",
     "options": [
-      "Ein Knoten mit vollständiger Blockchain",
-      "Ein Knoten mit reduzierten historischen Daten",
-      "Ein Mining-Knoten",
-      "Ein Wallet-Knoten"
+      "A node with the full blockchain",
+      "A node with reduced historical data",
+      "A mining node",
+      "A wallet node"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist der Zweck eines 'CheckLockTimeVerify' (CLTV)?",
+    "question": "What is the purpose of a 'CheckLockTimeVerify' (CLTV)?",
     "options": [
-      "Transaktionen sofort ausführen",
-      "Absolute Zeitverzögerungen für Transaktionen festlegen",
-      "Blöcke löschen",
-      "Wallets sichern"
+      "Executing transactions immediately",
+      "Setting absolute time delays for transactions",
+      "Deleting blocks",
+      "Securing wallets"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   },
   {
-    "question": "Was ist Ark im Bitcoin-Ökosystem?",
+    "question": "What is Ark in the Bitcoin ecosystem?",
     "options": [
-      "Ein Mining-Protokoll",
-      "Eine Skalierungslösung für vertrauensminimierte Transaktionen",
-      "Ein Wallet-Typ",
-      "Ein Sicherheitsprotokoll"
+      "A mining protocol",
+      "A scaling solution for trust-minimized transactions",
+      "A wallet type",
+      "A security protocol"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technik und Sicherheit"
+    "category": "Technology and Security"
   }
 ]
