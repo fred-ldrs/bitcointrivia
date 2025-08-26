@@ -146,3 +146,30 @@ footer a {
   max-width: 100px;         /* je nach Geschmack */
   height: auto;
 }
+
+.bitcoin-donate-button {
+  display: inline-block;
+  background: linear-gradient(45deg, #f7931a, #ffad33);
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.bitcoin-donate-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.bitcoin-donate-button img {
+  vertical-align: middle;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.bitcoin-donate-button span {
+  vertical-align: middle;
