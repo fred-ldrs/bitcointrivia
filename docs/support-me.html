@@ -1,1 +1,179 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Bitcoin Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .support-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .support-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .support-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .support-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .support-card h3 {
+            margin-top: 0;
+            color: #ff9900;
+            border-bottom: 2px solid #ff9900;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .support-card p {
+            flex-grow: 1;
+        }
+        
+        .support-card .btn {
+            display: inline-block;
+            background: #ff9900;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .support-card .btn:hover {
+            background: #e68a00;
+        }
+        
+        .support-section {
+            margin-bottom: 2rem;
+        }
+        
+        .support-section h2 {
+            color: #333;
+            border-bottom: 2px solid #ff9900;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .support-footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+        }
+        
+        .bonus-text {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #fffaf0;
+            border-left: 4px solid #ff9900;
+            font-style: italic;
+        }
+        
+        .support-card:hover .bonus-text {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="support-container">
+            <div class="support-title">
+                <h1>Support Bitcoin Trivia</h1>
+                <p>If you enjoy this project, there are several ways you can support our work.</p>
+            </div>
+            
+            <div class="support-section">
+                <h2>Donate</h2>
+                <div class="support-grid">
+                    <div class="support-card">
+                        <h3>Bitcoin Donation</h3>
+                        <p>Support us with Bitcoin through OpenNode - the preferred way!</p>
+                        <a href="https://checkout.opennode.com/p/ffd4467e-e41c-4b6e-9ceb-4bd394254fe8" target="_blank" class="btn">Donate Bitcoin</a>
+                        <div class="bonus-text">Every satoshi helps us continue improving Bitcoin Trivia and creating more educational content!</div>
+                    </div>
+                    
+                    <div class="support-card">
+                        <h3>PayPal Donation</h3>
+                        <p>For those who prefer to use traditional payment methods.</p>
+                        <a href="https://PayPal.Me/luederssolutions" target="_blank" class="btn">Donate via PayPal</a>
+                        <div class="bonus-text">Your fiat support helps cover our expenses while we work to orange-pill the world!</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="support-section">
+                <h2>Affiliate Programs</h2>
+                <div class="support-grid">
+                    <div class="support-card">
+                        <h3>CoinTracking</h3>
+                        <p>Track your crypto portfolio and optimize your tax reporting with this powerful tool.</p>
+                        <a href="https://cointracking.info?ref=F242802" target="_blank" class="btn">Sign up for CoinTracking</a>
+                        <div class="bonus-text">Get 10% discount on your subscription while supporting Bitcoin Trivia!</div>
+                    </div>
+                    
+                    <div class="support-card">
+                        <h3>BISON App</h3>
+                        <p>Easy and secure crypto trading platform from Börse Stuttgart.</p>
+                        <a href="https://join.bisonapp.com/n9v46b" target="_blank" class="btn">Join BISON App</a>
+                        <div class="bonus-text">Start your Bitcoin journey easily and support our work at no extra cost!</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="support-footer">
+                <p>Thank you for your support! ⚡</p>
+            </div>
+        </div>
+        
+        <footer>
+            <div>
+                <a href="https://boardgamegeek.com/boardgame/451160/bitcoin-trivia" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                View "Bitcoin Trivia" on BoardGameGeek
+                </a>
+            </div>
+            <br />
+            <a href="https://checkout.opennode.com/p/ffd4467e-e41c-4b6e-9ceb-4bd394254fe8" 
+                target="_blank"
+                class="bitcoin-donate-button">
+                Support with Bitcoin
+            </a>
+            <br />
+            <div>
+                <a href="impressum.html">
+                Impressum & Datenschutz
+                </a>
+            </div>
+            <br />
+            &copy; 2025 bitcointrivia.org
+        </footer>
+    </div>
+</body>
+</html>
