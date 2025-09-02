@@ -417,12 +417,12 @@ def find_json_files():
     """Find all available JSON files in various locations."""
     search_paths = [
         os.path.join("docs", "lang", "*.json"),
-        os.path.join("tools", "lang", "*.json"),
-        os.path.join("lang", "*.json"),
-        os.path.join("tools", "*.json"),
-        os.path.join("docs", "lang_copy", "*.json"),
-        os.path.join("tools", "lang_copy", "*.json"),
-        os.path.join("lang_copy", "*.json")
+        #os.path.join("tools", "lang", "*.json"),
+        #os.path.join("lang", "*.json"),
+        #os.path.join("tools", "*.json"),
+        #os.path.join("docs", "lang_copy", "*.json"),
+        #os.path.join("tools", "lang_copy", "*.json"),
+        #os.path.join("lang_copy", "*.json")
     ]
     
     json_files = []
