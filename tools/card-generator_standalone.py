@@ -48,11 +48,20 @@ DIFFICULTY_COLORS = {
     "SATOSHI": colors.Color(1, 0.5, 0.5)      # Light red (kept as "satoshi")
 }
 
-# Define category icons/colors (can be enhanced with actual icons)
+# Define English category colors
 CATEGORY_COLORS = {
     "Bitcoin History and Adoption": colors.Color(0.2, 0.7, 0.4),  # Green
     "Technology and Security": colors.Color(0.3, 0.3, 0.9),      # Blue
     "Proof of Work and Mining": colors.Color(0.9, 0.6, 0.2)      # Orange
+}
+
+# Define German to English category mapping
+# This ensures that German categories use the same colors as their English counterparts
+CATEGORY_MAPPING = {
+    # German categories mapped to English equivalent
+    "Bitcoin Geschichte und Adoption": "Bitcoin History and Adoption",
+    "Technologie und Sicherheit": "Technology and Security",
+    "Proof of Work und Mining": "Proof of Work and Mining"
 }
 
 # Logo path
@@ -105,6 +114,14 @@ def calculate_option_height(option, max_chars, font_size):
     # Calculate total height (line_count * font_size * 1.2 for line spacing)
     return line_count * font_size * 1.2
 
+def get_category_color(category):
+    """Get the correct color for a category, with language mapping."""
+    # If the category is in the mapping (e.g., German), map it to English first
+    mapped_category = CATEGORY_MAPPING.get(category, category)
+    
+    # Then get the color based on the mapped (or original) category
+    return CATEGORY_COLORS.get(mapped_category, colors.gray)
+
 def draw_card(canvas, x, y, question_data, width, height):
     """Draw a card directly on the canvas at the specified position."""
     # Save the canvas state
@@ -118,8 +135,10 @@ def draw_card(canvas, x, y, question_data, width, height):
         original_difficulty = question_data.get("difficulty", "curious")
         difficulty = DIFFICULTY_MAPPING.get(original_difficulty, original_difficulty).upper()
         difficulty_color = DIFFICULTY_COLORS.get(difficulty, colors.white)
+        
+        # Get category and apply language mapping for color selection
         category = question_data.get("category", "Unknown")
-        category_color = CATEGORY_COLORS.get(category, colors.gray)
+        category_color = get_category_color(category)
         
         # Draw main card background
         canvas.setFillColor(colors.white)
