@@ -12,6 +12,7 @@ import sys
 import traceback
 import glob
 import datetime
+import re
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -26,6 +27,8 @@ from reportlab.platypus import (
 )
 from reportlab.pdfgen import canvas
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 
 # Define card dimensions for 3x3 grid on A4 paper
 A4_WIDTH, A4_HEIGHT = A4
@@ -75,8 +78,16 @@ def get_timestamp():
     now = datetime.datetime.now()
     return now.strftime("%Y%m%d_%H%M%S")
 
+def replace_bitcoin_symbol(text):
+    """Replace Bitcoin symbol with safe alternative."""
+    # Replace both Unicode Bitcoin symbol and text representation
+    return text.replace("₿", "BTC").replace("Bitcoin", "Bitcoin")
+
 def wrap_text(text, max_chars, canvas, font_name, font_size):
-    """Wrap text to fit within max_chars per line."""
+    """Wrap text to fit within max_chars per line with better space usage."""
+    # First replace any Bitcoin symbol to avoid display issues
+    text = replace_bitcoin_symbol(text)
+    
     # For better text wrapping, consider word length
     canvas.setFont(font_name, font_size)
     words = text.split()
@@ -88,8 +99,16 @@ def wrap_text(text, max_chars, canvas, font_name, font_size):
         if len(test_line) <= max_chars:
             current_line = test_line
         else:
-            lines.append(current_line)
-            current_line = word
+            # If the current word is very long, we might need to break it
+            if len(word) > max_chars - 2 and not current_line:
+                # Break long words if necessary
+                while len(word) > max_chars:
+                    lines.append(word[:max_chars-1] + "-")
+                    word = word[max_chars-1:]
+                current_line = word
+            else:
+                lines.append(current_line)
+                current_line = word
     
     if current_line:
         lines.append(current_line)
@@ -108,7 +127,11 @@ def calculate_option_height(option, max_chars, font_size):
         if len(test_line) <= max_chars:
             current_line = test_line
         else:
-            line_count += 1
+            # If the word is very long, we might need to count additional lines
+            if len(word) > max_chars:
+                line_count += (len(word) + max_chars - 1) // max_chars
+            else:
+                line_count += 1
             current_line = word
     
     # Calculate total height (line_count * font_size * 1.2 for line spacing)
@@ -172,13 +195,13 @@ def draw_card(canvas, x, y, question_data, width, height):
                 # Fallback to Bitcoin symbol if logo can't be loaded
                 canvas.setFillColor(colors.black)
                 canvas.setFont("Helvetica-Bold", 14)
-                canvas.drawString(width - 15, height - 15, "₿")
+                canvas.drawString(width - 15, height - 15, "BTC")
         else:
             # Fallback to Bitcoin symbol
             print(f"Logo nicht gefunden unter: {logo_path}")
             canvas.setFillColor(colors.black)
             canvas.setFont("Helvetica-Bold", 14)
-            canvas.drawString(width - 15, height - 15, "₿")
+            canvas.drawString(width - 15, height - 15, "BTC")
         
         # Add difficulty label with more padding
         canvas.setFillColor(colors.black)
@@ -193,8 +216,11 @@ def draw_card(canvas, x, y, question_data, width, height):
         canvas.setFillColor(colors.black)
         question_text = question_data.get("question", "Missing question")
         
+        # Replace Bitcoin symbol to avoid display problems
+        question_text = replace_bitcoin_symbol(question_text)
+        
         # Better text wrapping for question with reduced max width for more padding
-        max_chars = 28  # Reduced from 30 to add more padding
+        max_chars = 30  # Increased from 28 to allow more text per line
         question_lines = wrap_text(question_text, max_chars, canvas, "Helvetica-Bold", 11)
         question_area_height = min(height / 3, len(question_lines) * 12 + 10)  # Limit question area height
         
@@ -214,10 +240,12 @@ def draw_card(canvas, x, y, question_data, width, height):
             
             # Calculate space needed for each option
             option_font_size = 9
-            option_max_chars = 26  # Reduced for more side padding
+            option_max_chars = 30  # Increased from 26 to use more space
             option_heights = []
             
             for option in options:
+                # Replace Bitcoin symbol in options too
+                option = replace_bitcoin_symbol(option)
                 option_heights.append(calculate_option_height(option, option_max_chars, option_font_size))
             
             # Calculate total height needed and adjust spacing
@@ -234,6 +262,7 @@ def draw_card(canvas, x, y, question_data, width, height):
                 # Recalculate heights with smaller font
                 option_heights = []
                 for option in options:
+                    option = replace_bitcoin_symbol(option)
                     option_heights.append(calculate_option_height(option, option_max_chars, option_font_size))
                 total_options_height = sum(option_heights)
             
@@ -243,6 +272,9 @@ def draw_card(canvas, x, y, question_data, width, height):
             
             for i, option in enumerate(options):
                 if i < len(option_letters):
+                    # Replace Bitcoin symbol
+                    option = replace_bitcoin_symbol(option)
+                    
                     # Mark the correct answer with a bold letter in brackets
                     letter = option_letters[i]
                     if i == answer_idx:
@@ -253,26 +285,26 @@ def draw_card(canvas, x, y, question_data, width, height):
                         letter_prefix = f"{letter}."
                     
                     # Draw option letter with more padding from left edge
-                    canvas.drawString(15, current_y, letter_prefix)  # Increased left padding
+                    canvas.drawString(10, current_y, letter_prefix)  # Decreased left padding to 10
                     
                     # Switch back to regular font for the option text
                     canvas.setFont("Helvetica", option_font_size)
                     
                     # Draw the option text with wrapping
-                    option_lines = wrap_text(option, option_max_chars - 4, canvas, "Helvetica", option_font_size)
+                    option_lines = wrap_text(option, option_max_chars - 2, canvas, "Helvetica", option_font_size)
                     for j, line in enumerate(option_lines):
                         if j == 0:
                             # First line comes after the letter
-                            canvas.drawString(30, current_y, line)  # Increased indent
+                            canvas.drawString(25, current_y, line)  # Decreased indent to 25
                         else:
                             # Subsequent lines are indented
-                            canvas.drawString(30, current_y - (j * (option_font_size + 2)), line)  # Increased indent
+                            canvas.drawString(25, current_y - (j * (option_font_size + 2)), line)  # Decreased indent to 25
                     
                     # Move to the next option position with more spacing for multi-line options
                     line_count = len(option_lines)
                     line_spacing = option_font_size + 2
                     option_total_height = line_count * line_spacing
-                    current_y -= max(option_total_height, option_font_size + 5) + min_spacing + 4
+                    current_y -= max(option_total_height, option_font_size + 5) + min_spacing + 2  # Reduced extra padding to 2
     
     except Exception as e:
         print(f"Fehler beim Zeichnen der Karte: {str(e)}")
