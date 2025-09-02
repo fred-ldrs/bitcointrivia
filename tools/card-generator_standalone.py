@@ -34,11 +34,18 @@ CARD_WIDTH = (A4_WIDTH - 2 * MARGIN) / 3
 CARD_HEIGHT = (A4_HEIGHT - 2 * MARGIN) / 3
 SPACING = 2 * mm
 
+# Define mapping for difficulty levels (to rename them)
+DIFFICULTY_MAPPING = {
+    "curious": "BITCOINER",
+    "bitcoiner": "CYPHERPUNK",
+    "satoshi": "SATOSHI"
+}
+
 # Define colors based on difficulty levels
 DIFFICULTY_COLORS = {
-    "curious": colors.Color(0.5, 0.8, 1),  # Light blue
-    "bitcoiner": colors.Color(1, 0.8, 0.3),  # Gold
-    "satoshi": colors.Color(1, 0.5, 0.5)   # Light red
+    "BITCOINER": colors.Color(0.5, 0.8, 1),   # Light blue (was "curious")
+    "CYPHERPUNK": colors.Color(1, 0.8, 0.3),  # Gold (was "bitcoiner")
+    "SATOSHI": colors.Color(1, 0.5, 0.5)      # Light red (kept as "satoshi")
 }
 
 # Define category icons/colors (can be enhanced with actual icons)
@@ -50,6 +57,9 @@ CATEGORY_COLORS = {
 
 # Logo path
 LOGO_PATH = os.path.join("tools", "BitcoinTriviaV3_copy.png")
+
+# Process tracking to avoid duplicates
+PROCESSED_FILES = set()
 
 def get_timestamp():
     """Return a timestamp string for filenames."""
@@ -105,7 +115,8 @@ def draw_card(canvas, x, y, question_data, width, height):
         canvas.translate(x, y)
         
         # Draw card background/border
-        difficulty = question_data.get("difficulty", "curious")
+        original_difficulty = question_data.get("difficulty", "curious")
+        difficulty = DIFFICULTY_MAPPING.get(original_difficulty, original_difficulty).upper()
         difficulty_color = DIFFICULTY_COLORS.get(difficulty, colors.white)
         category = question_data.get("category", "Unknown")
         category_color = CATEGORY_COLORS.get(category, colors.gray)
@@ -150,21 +161,22 @@ def draw_card(canvas, x, y, question_data, width, height):
             canvas.setFont("Helvetica-Bold", 14)
             canvas.drawString(width - 15, height - 15, "₿")
         
-        # Add difficulty label
+        # Add difficulty label with more padding
         canvas.setFillColor(colors.black)
         canvas.setFont("Helvetica-Bold", 10)
-        canvas.drawCentredString(width / 2, height - header_height / 2 - 4, difficulty.upper())
+        canvas.drawCentredString(width / 2, height - header_height / 2 - 4, difficulty)
         
         # Add category label
         canvas.setFont("Helvetica", 7)
         canvas.drawCentredString(width / 2, footer_height / 2 - 3, category)
         
-        # Add question
+        # Add question with more padding from the sides
         canvas.setFillColor(colors.black)
         question_text = question_data.get("question", "Missing question")
         
-        # Better text wrapping for question
-        question_lines = wrap_text(question_text, 30, canvas, "Helvetica-Bold", 11)
+        # Better text wrapping for question with reduced max width for more padding
+        max_chars = 28  # Reduced from 30 to add more padding
+        question_lines = wrap_text(question_text, max_chars, canvas, "Helvetica-Bold", 11)
         question_area_height = min(height / 3, len(question_lines) * 12 + 10)  # Limit question area height
         
         for i, line in enumerate(question_lines):
@@ -174,7 +186,7 @@ def draw_card(canvas, x, y, question_data, width, height):
         # Draw a line to separate question from answer options
         canvas.setStrokeColor(colors.lightgrey)
         separator_y = height - header_height - question_area_height - 10
-        canvas.line(10, separator_y, width - 10, separator_y)
+        canvas.line(15, separator_y, width - 15, separator_y)  # Increased side padding here too
         
         # Add answer options with better formatting and spacing
         options = question_data.get("options", [])
@@ -183,7 +195,7 @@ def draw_card(canvas, x, y, question_data, width, height):
             
             # Calculate space needed for each option
             option_font_size = 9
-            option_max_chars = 28
+            option_max_chars = 26  # Reduced for more side padding
             option_heights = []
             
             for option in options:
@@ -213,15 +225,16 @@ def draw_card(canvas, x, y, question_data, width, height):
             for i, option in enumerate(options):
                 if i < len(option_letters):
                     # Mark the correct answer with a bold letter in brackets
+                    letter = option_letters[i]
                     if i == answer_idx:
                         canvas.setFont("Helvetica-Bold", option_font_size)
-                        letter_prefix = f"[{option_letters[i]}]"
+                        letter_prefix = f"[{letter}]"
                     else:
                         canvas.setFont("Helvetica", option_font_size)
-                        letter_prefix = f"{option_letters[i]}."
+                        letter_prefix = f"{letter}."
                     
-                    # Draw option letter
-                    canvas.drawString(10, current_y, letter_prefix)
+                    # Draw option letter with more padding from left edge
+                    canvas.drawString(15, current_y, letter_prefix)  # Increased left padding
                     
                     # Switch back to regular font for the option text
                     canvas.setFont("Helvetica", option_font_size)
@@ -231,10 +244,10 @@ def draw_card(canvas, x, y, question_data, width, height):
                     for j, line in enumerate(option_lines):
                         if j == 0:
                             # First line comes after the letter
-                            canvas.drawString(25, current_y, line)
+                            canvas.drawString(30, current_y, line)  # Increased indent
                         else:
                             # Subsequent lines are indented
-                            canvas.drawString(25, current_y - (j * (option_font_size + 2)), line)
+                            canvas.drawString(30, current_y - (j * (option_font_size + 2)), line)  # Increased indent
                     
                     # Move to the next option position with more spacing for multi-line options
                     line_count = len(option_lines)
@@ -254,6 +267,17 @@ def draw_card(canvas, x, y, question_data, width, height):
 
 def create_trivia_cards(json_file, output_pdf):
     """Create a PDF with trivia cards from the JSON data."""
+    
+    # Normalisiere die Pfade für konsistente Speicherung im Set
+    json_file = os.path.normpath(json_file)
+    
+    # Check if we already processed this file to avoid duplicates
+    file_key = f"{json_file}"  # Use just the JSON file path as key
+    if file_key in PROCESSED_FILES:
+        print(f"Überspringe bereits verarbeitete Datei: {json_file}")
+        return True, output_pdf
+    
+    PROCESSED_FILES.add(file_key)
     
     # Add timestamp to filename
     timestamp = get_timestamp()
@@ -351,8 +375,19 @@ def find_json_files():
     ]
     
     json_files = []
+    found_paths = set()  # Verwenden eines Sets zur Vermeidung von Duplikaten
+    
     for pattern in search_paths:
-        json_files.extend(glob.glob(pattern))
+        for file_path in glob.glob(pattern):
+            # Normalisiere den Pfad und überprüfe auf Duplikate
+            norm_path = os.path.normpath(file_path)
+            basename = os.path.basename(norm_path)
+            
+            # Prüfe, ob wir bereits eine Datei mit diesem Namen haben
+            # Wenn ja, überspringen wir die Datei
+            if basename not in found_paths:
+                found_paths.add(basename)
+                json_files.append(norm_path)
     
     return json_files
 
@@ -375,9 +410,18 @@ def process_all_languages(create_answers=False):  # Default to no answer sheets
     successful = 0
     total = len(json_files)
     
+    # Vermeide doppelte Verarbeitung
+    processed_basenames = set()
+    
     for json_file in json_files:
         # Extrahiere Sprachcode aus Dateinamen (z.B. "en.json" -> "en")
-        lang_code = os.path.splitext(os.path.basename(json_file))[0]
+        basename = os.path.basename(json_file)
+        if basename in processed_basenames:
+            print(f"Überspringe doppelte Datei: {json_file}")
+            continue
+            
+        processed_basenames.add(basename)
+        lang_code = os.path.splitext(basename)[0]
         output_pdf = f"bitcoin_trivia_cards_{lang_code}.pdf"
         
         print(f"\n=== Verarbeite Sprache: {lang_code} ===")
@@ -416,7 +460,7 @@ if __name__ == "__main__":
         else:
             print(f"Logo gefunden: {LOGO_PATH}")
         
-        # Verarbeitungsmodus: Einzelne JSON-Datei oder alle verfügbaren Sprachen
+        # Standardmodus oder Einzelne JSON-Datei
         if args.json:
             # Einzelne JSON-Datei verarbeiten
             print(f"Verarbeite einzelne JSON-Datei: {args.json}")
@@ -450,11 +494,13 @@ if __name__ == "__main__":
                     sys.exit(0)
             
             # Create the cards PDF for the specified file
-            create_trivia_cards(json_file, args.output)
-                
-            # Jetzt zusätzlich alle anderen Sprachdateien verarbeiten
-            print("\nVerarbeite nun alle anderen verfügbaren Sprachdateien...")
-            process_all_languages(args.answers)
+            success, _ = create_trivia_cards(json_file, args.output)
+            
+            # KEINE weitere Verarbeitung anderer Dateien wenn eine Datei explizit angegeben wurde
+            # So vermeiden wir doppelte Verarbeitung der en.json
+            if not success:
+                print("\nFehler bei der Verarbeitung der angegebenen JSON-Datei. Verarbeite stattdessen alle verfügbaren Dateien...")
+                process_all_languages(args.answers)
         else:
             # Standardmodus: Alle Sprachdateien verarbeiten
             print("Verarbeite alle verfügbaren Sprachdateien...")
