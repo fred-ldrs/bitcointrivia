@@ -96,18 +96,6 @@
     "category": "Bitcoin History and Adoption"
   },
   {
-    "question": "Which symbol is used for Bitcoin?",
-    "options": [
-      "$",
-      "₿",
-      "€",
-      "£"
-    ],
-    "answer": 1,
-    "difficulty": "curious",
-    "category": "Bitcoin History and Adoption"
-  },
-  {
     "question": "What is a wallet in the Bitcoin context?",
     "options": [
       "A physical coin",
