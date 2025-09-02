@@ -112,8 +112,6 @@ def draw_card(canvas, x, y, question_data, width, height):
         
         # Draw main card background
         canvas.setFillColor(colors.white)
-        canvas.setStrokeColor(colors.black)
-        canvas.roundRect(0, 0, width, height, 5, fill=1, stroke=1)
         
         # Draw difficulty header
         header_height = height / 10
@@ -124,6 +122,11 @@ def draw_card(canvas, x, y, question_data, width, height):
         footer_height = height / 10
         canvas.setFillColor(category_color)
         canvas.rect(0, 0, width, footer_height, fill=1, stroke=0)
+        
+        # Draw the card border on top of the colored areas
+        canvas.setFillColor(colors.white)
+        canvas.setStrokeColor(colors.black)
+        canvas.roundRect(0, 0, width, height, 5, fill=0, stroke=1)
         
         # Add logo if available
         logo_path = LOGO_PATH
@@ -207,31 +210,37 @@ def draw_card(canvas, x, y, question_data, width, height):
             option_letters = ["A", "B", "C", "D"]
             current_y = separator_y - 15  # Start below separator
             
-            canvas.setFont("Helvetica", option_font_size)
-            
             for i, option in enumerate(options):
                 if i < len(option_letters):
-                    # Calculate the marker based on whether this is the correct answer
+                    # Mark the correct answer with a bold letter in brackets
                     if i == answer_idx:
-                        marker = f"{option_letters[i]}. [X]"
+                        canvas.setFont("Helvetica-Bold", option_font_size)
+                        letter_prefix = f"[{option_letters[i]}]"
                     else:
-                        marker = f"{option_letters[i]}. [ ]"
+                        canvas.setFont("Helvetica", option_font_size)
+                        letter_prefix = f"{option_letters[i]}."
                     
-                    # Draw option marker
-                    canvas.drawString(10, current_y, marker)
+                    # Draw option letter
+                    canvas.drawString(10, current_y, letter_prefix)
+                    
+                    # Switch back to regular font for the option text
+                    canvas.setFont("Helvetica", option_font_size)
                     
                     # Draw the option text with wrapping
                     option_lines = wrap_text(option, option_max_chars - 4, canvas, "Helvetica", option_font_size)
                     for j, line in enumerate(option_lines):
                         if j == 0:
-                            # First line comes after the marker
-                            canvas.drawString(35, current_y, line)
+                            # First line comes after the letter
+                            canvas.drawString(25, current_y, line)
                         else:
                             # Subsequent lines are indented
-                            canvas.drawString(35, current_y - (j * (option_font_size + 2)), line)
+                            canvas.drawString(25, current_y - (j * (option_font_size + 2)), line)
                     
-                    # Move to the next option position, accounting for the height of this option
-                    current_y -= option_heights[i] + min_spacing + 4
+                    # Move to the next option position with more spacing for multi-line options
+                    line_count = len(option_lines)
+                    line_spacing = option_font_size + 2
+                    option_total_height = line_count * line_spacing
+                    current_y -= max(option_total_height, option_font_size + 5) + min_spacing + 4
     
     except Exception as e:
         print(f"Fehler beim Zeichnen der Karte: {str(e)}")
