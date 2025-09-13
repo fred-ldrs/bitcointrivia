@@ -86,30 +86,69 @@ function checkAnswer(answerIndex) {
 }
 
 function showResults() {
+    const translations = {
+        de: {
+            score: "Score",
+            perfect: "Perfekt! 🎉 Du hast alles richtig beantwortet.",
+            wrongAnswers: "Falsche Antworten:",
+            question: "Frage",
+            yourAnswer: "Deine Antwort",
+            correctAnswer: "Richtige Antwort",
+            satoshiLevel: "🟢 Satoshi-Level!",
+            bitcoinerLevel: "🟡 Bitcoiner-Level",
+            curiousLevel: "🔴 Curious-Level"
+        },
+        en: {
+            score: "Score",
+            perfect: "Perfect! 🎉 You answered everything correctly.",
+            wrongAnswers: "Wrong Answers:",
+            question: "Question",
+            yourAnswer: "Your Answer",
+            correctAnswer: "Correct Answer",
+            satoshiLevel: "🟢 Satoshi Level!",
+            bitcoinerLevel: "🟡 Bitcoiner Level",
+            curiousLevel: "🔴 Curious Level"
+        },
+        fr: {
+            score: "Score",
+            perfect: "Parfait! 🎉 Vous avez tout répondu correctement.",
+            wrongAnswers: "Réponses incorrectes:",
+            question: "Question",
+            yourAnswer: "Votre réponse",
+            correctAnswer: "Bonne réponse",
+            satoshiLevel: "🟢 Niveau Satoshi!",
+            bitcoinerLevel: "🟡 Niveau Bitcoiner",
+            curiousLevel: "🔴 Niveau Curieux"
+        }
+    };
+
+    // Standardsprache ist Deutsch falls etwas nicht stimmt
+    const t = translations[selectedLang] || translations.de;
+    
     let level;
     const percentage = score / questions.length;
     
-    if (percentage >= 0.85) level = "🟢 Satoshi-Level!";
-    else if (percentage >= 0.6) level = "🟡 Bitcoiner-Level";
-    else level = "🔴 Curious-Level";
+    if (percentage >= 0.85) level = t.satoshiLevel;
+    else if (percentage >= 0.6) level = t.bitcoinerLevel;
+    else level = t.curiousLevel;
 
-    let resultHTML = `<h2>Score: ${score}/${questions.length}</h2>`;
+    let resultHTML = `<h2>${t.score}: ${score}/${questions.length}</h2>`;
     resultHTML += `<p>${level}</p>`;
 
     if (wrongAnswers.length > 0) {
-        resultHTML += "<h3>Falsche Antworten:</h3><ul>";
+        resultHTML += `<h3>${t.wrongAnswers}</h3><ul>`;
         wrongAnswers.forEach((item, index) => {
             resultHTML += `
                 <li>
-                    <strong>Frage ${index + 1}:</strong> ${item.question}<br>
-                    <strong>Deine Antwort:</strong> ${item.yourAnswer}<br>
-                    <strong>Richtige Antwort:</strong> ${item.correctAnswer}
+                    <strong>${t.question} ${index + 1}:</strong> ${item.question}<br>
+                    <strong>${t.yourAnswer}:</strong> ${item.yourAnswer}<br>
+                    <strong>${t.correctAnswer}:</strong> ${item.correctAnswer}
                 </li><br>
             `;
         });
         resultHTML += "</ul>";
     } else {
-        resultHTML += "<p>Perfekt! 🎉 Du hast alles richtig beantwortet.</p>";
+        resultHTML += `<p>${t.perfect}</p>`;
     }
 
     document.getElementById("quiz").innerHTML = resultHTML;
