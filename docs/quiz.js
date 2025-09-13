@@ -12,22 +12,37 @@ function setupQuizControls() {
   document.getElementById("startButton").addEventListener("click", startQuiz);
 }
 
-// Verbesserte Funktion zum Laden der Fragen mit UTF-8-Kodierung
+// Verbesserte Funktion zum Laden der Fragen mit explizitem UTF-8-Handling
 async function loadQuestions() { 
-    const res = await fetch(`lang/${selectedLang}.json`, {
-        headers: {
-            'Content-Type': 'application/json; charset=utf-8'
+    try {
+        // Fetch als ArrayBuffer, um Rohbytes zu erhalten
+        const res = await fetch(`lang/${selectedLang}.json`);
+        const buffer = await res.arrayBuffer();
+        
+        // In UTF-8 umwandeln und mögliches BOM entfernen
+        let text = new TextDecoder('utf-8').decode(buffer);
+        
+        // BOM entfernen falls vorhanden
+        if (text.charCodeAt(0) === 0xFEFF) {
+            text = text.substring(1);
         }
-    });
-    
-    const text = await res.text();
-    const data = JSON.parse(text);
-    const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
-    let extended = [...filtered];
-    while (extended.length < maxQuestionsPerQuiz) {
-        extended.push(...shuffle(filtered));
+        
+        // JSON parsen
+        const data = JSON.parse(text);
+        
+        // Debugging-Ausgabe
+        console.log(`Laden von ${selectedLang}.json erfolgreich. Erstes Zeichen Code: ${text.charCodeAt(0)}`);
+        
+        const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
+        let extended = [...filtered];
+        while (extended.length < maxQuestionsPerQuiz) {
+            extended.push(...shuffle(filtered));
+        }
+        return shuffle(extended).slice(0, maxQuestionsPerQuiz);
+    } catch (error) {
+        console.error("Fehler beim Laden der Fragen:", error);
+        return [];
     }
-    return shuffle(extended).slice(0, maxQuestionsPerQuiz);
 }
 
 function shuffle(array) {
@@ -49,9 +64,11 @@ async function startQuiz() {
 function showQuestion() {
     const q = questions[currentQuestion];
     const container = document.getElementById("quiz");
-    container.innerHTML = `<p><b>${currentQuestion + 1}/${maxQuestionsPerQuiz}:</b> ${q.question}</p>` +
+    
+    // Frage und Optionen explizit als UTF-8 anzeigen
+    container.innerHTML = `<p><b>${currentQuestion + 1}/${maxQuestionsPerQuiz}:</b> ${decodeURIComponent(encodeURIComponent(q.question))}</p>` +
         q.options.map((opt, i) =>
-            `<button onclick="checkAnswer(${i})">${opt}</button>`
+            `<button onclick="checkAnswer(${i})">${decodeURIComponent(encodeURIComponent(opt))}</button>`
         ).join("<br>");
 }
 
@@ -94,9 +111,9 @@ function showResults() {
         wrongAnswers.forEach((item, index) => {
             resultHTML += `
                 <li>
-                    <strong>Frage ${index + 1}:</strong> ${item.question}<br>
-                    <strong>Deine Antwort:</strong> ${item.yourAnswer}<br>
-                    <strong>Richtige Antwort:</strong> ${item.correctAnswer}
+                    <strong>Frage ${index + 1}:</strong> ${decodeURIComponent(encodeURIComponent(item.question))}<br>
+                    <strong>Deine Antwort:</strong> ${decodeURIComponent(encodeURIComponent(item.yourAnswer))}<br>
+                    <strong>Richtige Antwort:</strong> ${decodeURIComponent(encodeURIComponent(item.correctAnswer))}
                 </li><br>
             `;
         });
