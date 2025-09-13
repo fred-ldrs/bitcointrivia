@@ -12,24 +12,14 @@ function setupQuizControls() {
   document.getElementById("startButton").addEventListener("click", startQuiz);
 }
 
-
-// Beim Laden der JSON-Dateien UTF-8-Kodierung erzwingen
-function loadQuestions(language) {
-    return fetch(`lang/${language}.json`, {
+// Verbesserte Funktion zum Laden der Fragen mit UTF-8-Kodierung
+async function loadQuestions() { 
+    const res = await fetch(`lang/${selectedLang}.json`, {
         headers: {
             'Content-Type': 'application/json; charset=utf-8'
         }
-    })
-    .then(response => response.json())
-    .catch(error => {
-        console.error(`Error loading questions for ${language}:`, error);
-        return [];
     });
-}
-
-async function loadQuestions() { 
-    const res = await fetch(`lang/${selectedLang}.json`);
-    //const res = await fetch(`../lang/${selectedLang}.json`); // same level /doc und /lang
+    
     const data = await res.json();
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
     let extended = [...filtered];
