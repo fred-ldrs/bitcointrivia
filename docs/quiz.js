@@ -20,7 +20,8 @@ async function loadQuestions() {
         }
     });
     
-    const data = await res.json();
+    const text = await res.text();
+    const data = JSON.parse(text);
     const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
     let extended = [...filtered];
     while (extended.length < maxQuestionsPerQuiz) {
