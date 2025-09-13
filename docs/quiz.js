@@ -4,7 +4,7 @@ let score = 0;
 let selectedLang = "de";
 let selectedLevel = "curious";
 let wrongAnswers = [];
-let maxQuestionsPerQuiz  = 5; //goal 21
+let maxQuestionsPerQuiz = 5; //goal 21
 
 function setupQuizControls() {
   document.getElementById("language").addEventListener("change", (e) => selectedLang = e.target.value);
@@ -12,26 +12,18 @@ function setupQuizControls() {
   document.getElementById("startButton").addEventListener("click", startQuiz);
 }
 
-// Verbesserte Funktion zum Laden der Fragen mit explizitem UTF-8-Handling
+// Verbesserte Funktion zum Laden der Fragen mit korrektem Content-Type
 async function loadQuestions() { 
     try {
-        // Fetch als ArrayBuffer, um Rohbytes zu erhalten
-        const res = await fetch(`lang/${selectedLang}.json`);
-        const buffer = await res.arrayBuffer();
+        // Fetch mit expliziter Angabe für den Response-Type
+        const res = await fetch(`lang/${selectedLang}.json`, {
+            headers: {
+                'Accept': 'application/json; charset=utf-8'
+            }
+        });
         
-        // In UTF-8 umwandeln und mögliches BOM entfernen
-        let text = new TextDecoder('utf-8').decode(buffer);
-        
-        // BOM entfernen falls vorhanden
-        if (text.charCodeAt(0) === 0xFEFF) {
-            text = text.substring(1);
-        }
-        
-        // JSON parsen
-        const data = JSON.parse(text);
-        
-        // Debugging-Ausgabe
-        console.log(`Laden von ${selectedLang}.json erfolgreich. Erstes Zeichen Code: ${text.charCodeAt(0)}`);
+        // Den Response als JSON dekodieren
+        const data = await res.json();
         
         const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
         let extended = [...filtered];
@@ -64,11 +56,9 @@ async function startQuiz() {
 function showQuestion() {
     const q = questions[currentQuestion];
     const container = document.getElementById("quiz");
-    
-    // Frage und Optionen explizit als UTF-8 anzeigen
-    container.innerHTML = `<p><b>${currentQuestion + 1}/${maxQuestionsPerQuiz}:</b> ${decodeURIComponent(encodeURIComponent(q.question))}</p>` +
+    container.innerHTML = `<p><b>${currentQuestion + 1}/${maxQuestionsPerQuiz}:</b> ${q.question}</p>` +
         q.options.map((opt, i) =>
-            `<button onclick="checkAnswer(${i})">${decodeURIComponent(encodeURIComponent(opt))}</button>`
+            `<button onclick="checkAnswer(${i})">${opt}</button>`
         ).join("<br>");
 }
 
@@ -111,9 +101,9 @@ function showResults() {
         wrongAnswers.forEach((item, index) => {
             resultHTML += `
                 <li>
-                    <strong>Frage ${index + 1}:</strong> ${decodeURIComponent(encodeURIComponent(item.question))}<br>
-                    <strong>Deine Antwort:</strong> ${decodeURIComponent(encodeURIComponent(item.yourAnswer))}<br>
-                    <strong>Richtige Antwort:</strong> ${decodeURIComponent(encodeURIComponent(item.correctAnswer))}
+                    <strong>Frage ${index + 1}:</strong> ${item.question}<br>
+                    <strong>Deine Antwort:</strong> ${item.yourAnswer}<br>
+                    <strong>Richtige Antwort:</strong> ${item.correctAnswer}
                 </li><br>
             `;
         });

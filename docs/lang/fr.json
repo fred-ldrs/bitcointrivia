@@ -12,7 +12,7 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Qui a inventé le Bitcoin?",
+    "question": "Qui a inventÃ© le Bitcoin?",
     "options": [
       "Vitalik Buterin",
       "Elon Musk",
@@ -27,9 +27,9 @@
     "question": "Quel est l'objectif principal du Proof of Work dans Bitcoin?",
     "options": [
       "Imprimer des Bitcoins",
-      "Valider les transactions grâce à la puissance de calcul",
-      "Sécuriser les portefeuilles",
-      "Réduire les frais"
+      "Valider les transactions grÃ¢ce Ã  la puissance de calcul",
+      "SÃ©curiser les portefeuilles",
+      "RÃ©duire les frais"
     ],
     "answer": 1,
     "difficulty": "curious",
@@ -40,15 +40,15 @@
     "options": [
       "Un appareil pour stocker des Bitcoins",
       "Un code de transaction temporaire",
-      "Une chaîne unique pour l'attribution des transactions",
+      "Une chaÃ®ne unique pour l'attribution des transactions",
       "Le nom d'un mineur"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Que signifie 'HODL' dans la communauté Bitcoin?",
+    "question": "Que signifie 'HODL' dans la communautÃ© Bitcoin?",
     "options": [
       "Hardware Operation Digital Ledger",
       "Hold On for Dear Life (s'accrocher fermement)",
@@ -63,13 +63,13 @@
     "question": "Qu'est-ce qu'une blockchain?",
     "options": [
       "Un serveur central",
-      "Une liste chaînée de blocs contenant des transactions",
+      "Une liste chaÃ®nÃ©e de blocs contenant des transactions",
       "Un algorithme de minage",
       "Un type de portefeuille"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel protocole de consensus Bitcoin utilise-t-il pour le minage?",
@@ -84,7 +84,7 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Quel pays a adopté le Bitcoin comme monnaie légale en 2021?",
+    "question": "Quel pays a adoptÃ© le Bitcoin comme monnaie lÃ©gale en 2021?",
     "options": [
       "Venezuela",
       "Salvador",
@@ -98,17 +98,17 @@
   {
     "question": "Qu'est-ce qu'un portefeuille dans le contexte du Bitcoin?",
     "options": [
-      "Une pièce physique",
-      "Un logiciel ou matériel pour gérer les clés Bitcoin",
+      "Une piÃ¨ce physique",
+      "Un logiciel ou matÃ©riel pour gÃ©rer les clÃ©s Bitcoin",
       "Un outil de minage",
-      "Un compte d'échange"
+      "Un compte d'Ã©change"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quelle année a marqué le début du réseau Bitcoin?",
+    "question": "Quelle annÃ©e a marquÃ© le dÃ©but du rÃ©seau Bitcoin?",
     "options": [
       "2007",
       "2008",
@@ -120,24 +120,24 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Pourquoi le Bitcoin est-il décentralisé?",
+    "question": "Pourquoi le Bitcoin est-il dÃ©centralisÃ©?",
     "options": [
-      "Il est contrôlé par une banque",
-      "Il est géré par de nombreux nœuds dans le monde entier",
+      "Il est contrÃ´lÃ© par une banque",
+      "Il est gÃ©rÃ© par de nombreux nÅ“uds dans le monde entier",
       "Il n'a qu'un seul serveur",
-      "Il est lié à un gouvernement"
+      "Il est liÃ© Ã  un gouvernement"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel pays africain a une forte adoption du Bitcoin via le trading pair-à-pair?",
+    "question": "Quel pays africain a une forte adoption du Bitcoin via le trading pair-Ã -pair?",
     "options": [
       "Kenya",
       "Nigeria",
-      "Éthiopie",
-      "Algérie"
+      "Ã‰thiopie",
+      "AlgÃ©rie"
     ],
     "answer": 1,
     "difficulty": "curious",
@@ -146,10 +146,10 @@
   {
     "question": "Qu'est-ce que le 'Halving' dans Bitcoin?",
     "options": [
-      "La blockchain est divisée par deux",
-      "Les frais de transaction sont divisés par deux",
-      "Le nombre de nouveaux Bitcoins par bloc est divisé par deux",
-      "Le prix est divisé par deux"
+      "La blockchain est divisÃ©e par deux",
+      "Les frais de transaction sont divisÃ©s par deux",
+      "Le nombre de nouveaux Bitcoins par bloc est divisÃ© par deux",
+      "Le prix est divisÃ© par deux"
     ],
     "answer": 2,
     "difficulty": "curious",
@@ -158,8 +158,8 @@
   {
     "question": "Qu'est-ce qu'un Satoshi?",
     "options": [
-      "Un développeur Bitcoin",
-      "La plus petite unité de Bitcoin",
+      "Un dÃ©veloppeur Bitcoin",
+      "La plus petite unitÃ© de Bitcoin",
       "Une altcoin",
       "Un smart contract"
     ],
@@ -168,19 +168,19 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quelle caractéristique n'est PAS typique du Bitcoin?",
+    "question": "Quelle caractÃ©ristique n'est PAS typique du Bitcoin?",
     "options": [
-      "Décentralisation",
+      "DÃ©centralisation",
       "Inflationniste",
-      "Offre limitée",
-      "Résistance à la censure"
+      "Offre limitÃ©e",
+      "RÃ©sistance Ã  la censure"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "À quelle fréquence un nouveau bloc Bitcoin est-il trouvé en moyenne?",
+    "question": "Ã€ quelle frÃ©quence un nouveau bloc Bitcoin est-il trouvÃ© en moyenne?",
     "options": [
       "Toutes les 1 minute",
       "Toutes les 10 minutes",
@@ -197,14 +197,14 @@
       "Un document marketing",
       "Une description technique du Bitcoin",
       "Un texte juridique",
-      "Un modèle de prédiction des prix"
+      "Un modÃ¨le de prÃ©diction des prix"
     ],
     "answer": 1,
     "difficulty": "curious",
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quelle entreprise a officiellement accepté le Bitcoin comme moyen de paiement en 2014?",
+    "question": "Quelle entreprise a officiellement acceptÃ© le Bitcoin comme moyen de paiement en 2014?",
     "options": [
       "Facebook",
       "Microsoft",
@@ -216,36 +216,36 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Qu'est-ce qu'un échange Bitcoin?",
+    "question": "Qu'est-ce qu'un Ã©change Bitcoin?",
     "options": [
       "Un pool de minage",
       "Une plateforme pour acheter et vendre du Bitcoin",
       "Un fournisseur de portefeuille",
-      "Un régulateur"
+      "Un rÃ©gulateur"
     ],
     "answer": 1,
     "difficulty": "curious",
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Qu'est-ce qu'un réseau pair-à-pair dans Bitcoin?",
+    "question": "Qu'est-ce qu'un rÃ©seau pair-Ã -pair dans Bitcoin?",
     "options": [
       "Un serveur central",
-      "Un réseau sans autorité centrale",
+      "Un rÃ©seau sans autoritÃ© centrale",
       "Un pool de minage",
-      "Un système d'échange"
+      "Un systÃ¨me d'Ã©change"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel type de monnaie est le Bitcoin?",
     "options": [
       "Monnaie fiduciaire",
       "Cryptomonnaie",
-      "Basée sur l'or",
-      "Basée sur des actions"
+      "BasÃ©e sur l'or",
+      "BasÃ©e sur des actions"
     ],
     "answer": 1,
     "difficulty": "curious",
@@ -255,20 +255,20 @@
     "question": "Qu'est-ce qu'un frais de transaction dans Bitcoin?",
     "options": [
       "Une taxe pour le gouvernement",
-      "Un montant que les mineurs reçoivent pour le traitement",
+      "Un montant que les mineurs reÃ§oivent pour le traitement",
       "Un abonnement au portefeuille",
-      "Une contribution aux coûts marketing"
+      "Une contribution aux coÃ»ts marketing"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quelle est la principale différence entre le Bitcoin et la monnaie traditionnelle?",
+    "question": "Quelle est la principale diffÃ©rence entre le Bitcoin et la monnaie traditionnelle?",
     "options": [
       "Le Bitcoin est physique",
-      "Le Bitcoin est centralisé",
-      "Le Bitcoin est numérique et décentralisé",
+      "Le Bitcoin est centralisÃ©",
+      "Le Bitcoin est numÃ©rique et dÃ©centralisÃ©",
       "Le Bitcoin n'a pas de valeur"
     ],
     "answer": 2,
@@ -276,12 +276,12 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Que signifie 'To the Moon' dans la communauté Bitcoin?",
+    "question": "Que signifie 'To the Moon' dans la communautÃ© Bitcoin?",
     "options": [
       "Un nouveau portefeuille",
       "Une expression pour des prix en hausse",
       "Un protocole de minage",
-      "Une fonction de sécurité"
+      "Une fonction de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "curious",
@@ -291,16 +291,16 @@
     "question": "Qu'est-ce qu'un bloc dans le contexte du Bitcoin?",
     "options": [
       "Un stockage physique",
-      "Un matériel de minage",
+      "Un matÃ©riel de minage",
       "Un enregistrement de transactions",
       "Un portefeuille"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qui a publié le livre blanc Bitcoin?",
+    "question": "Qui a publiÃ© le livre blanc Bitcoin?",
     "options": [
       "Vitalik Buterin",
       "Satoshi Nakamoto",
@@ -312,16 +312,16 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quel est l'objectif d'une clé publique?",
+    "question": "Quel est l'objectif d'une clÃ© publique?",
     "options": [
       "Signer des transactions",
       "Recevoir du Bitcoin",
       "Miner",
-      "Créer des portefeuilles"
+      "CrÃ©er des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Que signifie 'sans permission' dans Bitcoin?",
@@ -333,12 +333,12 @@
     ],
     "answer": 1,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel est l'objectif du minage dans le réseau Bitcoin?",
+    "question": "Quel est l'objectif du minage dans le rÃ©seau Bitcoin?",
     "options": [
-      "Générer de nouveaux portefeuilles",
+      "GÃ©nÃ©rer de nouveaux portefeuilles",
       "Valider les transactions et trouver de nouveaux blocs",
       "Acheter du Bitcoin",
       "Supprimer des hachages"
@@ -348,7 +348,7 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Combien de Satoshis correspondent à 1 Bitcoin?",
+    "question": "Combien de Satoshis correspondent Ã  1 Bitcoin?",
     "options": [
       "100 000",
       "1 million",
@@ -363,16 +363,16 @@
     "question": "Quelle fonction le Bitcoin ne remplit-il PAS directement?",
     "options": [
       "Moyen de paiement",
-      "Réserve de valeur",
+      "RÃ©serve de valeur",
       "Contrats intelligents",
-      "Unité de compte"
+      "UnitÃ© de compte"
     ],
     "answer": 2,
     "difficulty": "curious",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Combien de décimales comporte 1 Bitcoin?",
+    "question": "Combien de dÃ©cimales comporte 1 Bitcoin?",
     "options": [
       "6",
       "8",
@@ -384,10 +384,10 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quel est l'objectif des 'Yeux Laser' de la communauté Bitcoin?",
+    "question": "Quel est l'objectif des 'Yeux Laser' de la communautÃ© Bitcoin?",
     "options": [
-      "Un protocole de sécurité",
-      "Un mème pour des prix en hausse",
+      "Un protocole de sÃ©curitÃ©",
+      "Un mÃ¨me pour des prix en hausse",
       "Un outil de minage",
       "Un type de portefeuille"
     ],
@@ -398,41 +398,41 @@
   {
     "question": "Qu'est-ce qu'un UTXO (Unspent Transaction Output)?",
     "options": [
-      "Un Bitcoin utilisé",
-      "Une sortie qui n'a pas encore été dépensée",
+      "Un Bitcoin utilisÃ©",
+      "Une sortie qui n'a pas encore Ã©tÃ© dÃ©pensÃ©e",
       "Un appareil de minage",
-      "Une clé secrète"
+      "Une clÃ© secrÃ¨te"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Comment le Proof of Work contribue-t-il à la sécurité de la blockchain Bitcoin?",
+    "question": "Comment le Proof of Work contribue-t-il Ã  la sÃ©curitÃ© de la blockchain Bitcoin?",
     "options": [
       "Il chiffre les portefeuilles",
-      "Il rend les attaques comme la double dépense coûteuses",
-      "Il réduit les frais de transaction",
-      "Il crée de nouveaux Bitcoins"
+      "Il rend les attaques comme la double dÃ©pense coÃ»teuses",
+      "Il rÃ©duit les frais de transaction",
+      "Il crÃ©e de nouveaux Bitcoins"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qu'est-ce qu'une clé privée?",
+    "question": "Qu'est-ce qu'une clÃ© privÃ©e?",
     "options": [
-      "Une clé publique",
+      "Une clÃ© publique",
       "Un mot de passe pour le portefeuille",
-      "Une clé secrète unique qui signe les transactions",
+      "Une clÃ© secrÃ¨te unique qui signe les transactions",
       "Un code QR"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quelle plateforme d'échange a été piratée en 2014 et a perdu de nombreux Bitcoins?",
+    "question": "Quelle plateforme d'Ã©change a Ã©tÃ© piratÃ©e en 2014 et a perdu de nombreux Bitcoins?",
     "options": [
       "Coinbase",
       "Binance",
@@ -447,16 +447,16 @@
     "question": "Quel est l'objectif du Lightning Network?",
     "options": [
       "Minage de Bitcoin",
-      "Transactions plus rapides et moins chères",
+      "Transactions plus rapides et moins chÃ¨res",
       "Contrats intelligents",
-      "Stockage de données"
+      "Stockage de donnÃ©es"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Combien de blocs sont trouvés en moyenne par jour dans le réseau Bitcoin?",
+    "question": "Combien de blocs sont trouvÃ©s en moyenne par jour dans le rÃ©seau Bitcoin?",
     "options": [
       "6",
       "100",
@@ -468,22 +468,22 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Que se passe-t-il tous les 210 000 blocs dans le réseau Bitcoin?",
+    "question": "Que se passe-t-il tous les 210 000 blocs dans le rÃ©seau Bitcoin?",
     "options": [
       "Un hard fork",
-      "Une mise à niveau du réseau",
-      "La récompense par bloc est divisée par deux (Halving)",
-      "Une réinitialisation de la blockchain"
+      "Une mise Ã  niveau du rÃ©seau",
+      "La rÃ©compense par bloc est divisÃ©e par deux (Halving)",
+      "Une rÃ©initialisation de la blockchain"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qui était Hal Finney?",
+    "question": "Qui Ã©tait Hal Finney?",
     "options": [
       "Un opposant au Bitcoin",
-      "Un développeur et l'un des premiers destinataires de Bitcoin",
+      "Un dÃ©veloppeur et l'un des premiers destinataires de Bitcoin",
       "Un mineur de Chine",
       "Un politicien"
     ],
@@ -492,7 +492,7 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quand le premier bloc Bitcoin (Genesis Block) a-t-il été miné?",
+    "question": "Quand le premier bloc Bitcoin (Genesis Block) a-t-il Ã©tÃ© minÃ©?",
     "options": [
       "2008",
       "2009",
@@ -504,7 +504,7 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Qu'est-ce qu'une phrase de récupération (seed phrase)?",
+    "question": "Qu'est-ce qu'une phrase de rÃ©cupÃ©ration (seed phrase)?",
     "options": [
       "Un code de transaction",
       "Un algorithme de chiffrement",
@@ -513,14 +513,14 @@
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel rôle jouent les mineurs dans le réseau Bitcoin?",
+    "question": "Quel rÃ´le jouent les mineurs dans le rÃ©seau Bitcoin?",
     "options": [
-      "Ils échangent du Bitcoin",
-      "Ils prêtent du Bitcoin",
-      "Ils valident et sécurisent les transactions grâce à la puissance de calcul",
+      "Ils Ã©changent du Bitcoin",
+      "Ils prÃªtent du Bitcoin",
+      "Ils valident et sÃ©curisent les transactions grÃ¢ce Ã  la puissance de calcul",
       "Ils stockent les portefeuilles"
     ],
     "answer": 2,
@@ -528,7 +528,7 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Quel matériel est particulièrement efficace pour le minage de Bitcoin?",
+    "question": "Quel matÃ©riel est particuliÃ¨rement efficace pour le minage de Bitcoin?",
     "options": [
       "CPU",
       "GPU",
@@ -540,7 +540,7 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Combien de blocs une transaction a-t-elle généralement besoin pour une sécurité élevée?",
+    "question": "Combien de blocs une transaction a-t-elle gÃ©nÃ©ralement besoin pour une sÃ©curitÃ© Ã©levÃ©e?",
     "options": [
       "1",
       "3",
@@ -549,34 +549,34 @@
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Comment appelle-t-on une transaction qui n'a pas encore été incluse dans un bloc?",
+    "question": "Comment appelle-t-on une transaction qui n'a pas encore Ã©tÃ© incluse dans un bloc?",
     "options": [
       "En attente",
       "Flottante",
-      "Non confirmée",
-      "Fantôme"
+      "Non confirmÃ©e",
+      "FantÃ´me"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un 'cold wallet'?",
     "options": [
-      "Un portefeuille conservé hors ligne",
+      "Un portefeuille conservÃ© hors ligne",
       "Un portefeuille avec des frais faibles",
       "Un portefeuille pour le minage",
-      "Un portefeuille avec un échange intégré"
+      "Un portefeuille avec un Ã©change intÃ©grÃ©"
     ],
     "answer": 0,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quelle est la récompense actuelle (en 2024) pour les mineurs par bloc?",
+    "question": "Quelle est la rÃ©compense actuelle (en 2024) pour les mineurs par bloc?",
     "options": [
       "12,5 BTC",
       "6,25 BTC",
@@ -593,47 +593,47 @@
       "Un algorithme de minage",
       "Une structure pour stocker efficacement les transactions",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qu'est-ce qu'un 'mempool' dans le réseau Bitcoin?",
+    "question": "Qu'est-ce qu'un 'mempool' dans le rÃ©seau Bitcoin?",
     "options": [
       "Un stockage pour les nouveaux blocs",
       "Un pool pour les mineurs",
-      "Un stockage pour les transactions non confirmées",
+      "Un stockage pour les transactions non confirmÃ©es",
       "Une sauvegarde de portefeuille"
     ],
     "answer": 2,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'time lock' dans les transactions Bitcoin?",
     "options": [
-      "Exécuter des transactions immédiatement",
-      "Libérer des transactions à un moment ultérieur",
+      "ExÃ©cuter des transactions immÃ©diatement",
+      "LibÃ©rer des transactions Ã  un moment ultÃ©rieur",
       "Supprimer des transactions",
       "Verrouiller des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce que 'Replace-by-Fee' (RBF)?",
     "options": [
-      "Créer un nouveau portefeuille",
-      "Remplacer une transaction par une autre avec des frais plus élevés",
+      "CrÃ©er un nouveau portefeuille",
+      "Remplacer une transaction par une autre avec des frais plus Ã©levÃ©s",
       "Un protocole de minage",
-      "Une mise à jour de sécurité"
+      "Une mise Ã  jour de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un pool de minage?",
@@ -641,7 +641,7 @@
       "Acheter des Bitcoins",
       "Combiner la puissance de calcul pour trouver des blocs plus rapidement",
       "Stocker des portefeuilles",
-      "Échanger des transactions"
+      "Ã‰changer des transactions"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
@@ -653,23 +653,23 @@
       "Un nouveau portefeuille",
       "Une division de la blockchain",
       "Un outil de minage",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un 'hot wallet'?",
     "options": [
       "Un portefeuille qui est hors ligne",
-      "Un portefeuille qui est connecté en ligne",
+      "Un portefeuille qui est connectÃ© en ligne",
       "Un portefeuille pour le minage",
       "Un portefeuille avec des frais faibles"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'portefeuille en consultation seule'?",
@@ -681,14 +681,14 @@
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce que le 'temps de bloc' dans Bitcoin?",
     "options": [
       "Le temps pour envoyer une transaction",
       "Le temps moyen pour trouver un nouveau bloc",
-      "Le temps pour créer un portefeuille",
+      "Le temps pour crÃ©er un portefeuille",
       "Le temps pour un halving"
     ],
     "answer": 1,
@@ -696,24 +696,24 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qu'est-ce qu'une 'limite de poussière' dans Bitcoin?",
+    "question": "Qu'est-ce qu'une 'limite de poussiÃ¨re' dans Bitcoin?",
     "options": [
       "Les frais de transaction minimum",
-      "Le plus petit montant dépensable d'un UTXO",
+      "Le plus petit montant dÃ©pensable d'un UTXO",
       "La taille maximale d'un bloc",
       "La puissance minimale de minage"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel est l'objectif de l'ajustement de la difficulté?",
+    "question": "Quel est l'objectif de l'ajustement de la difficultÃ©?",
     "options": [
-      "Réduire les frais de transaction",
+      "RÃ©duire les frais de transaction",
       "Maintenir le temps de bloc autour de 10 minutes",
       "Augmenter la taille du bloc",
-      "Sécuriser les portefeuilles"
+      "SÃ©curiser les portefeuilles"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
@@ -722,31 +722,31 @@
   {
     "question": "Qu'est-ce qu'un 'paper wallet'?",
     "options": [
-      "Un portefeuille sur papier avec des clés",
+      "Un portefeuille sur papier avec des clÃ©s",
       "Un portefeuille pour le minage",
-      "Un portefeuille numérique",
+      "Un portefeuille numÃ©rique",
       "Un portefeuille pour les transactions"
     ],
     "answer": 0,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel est l'objectif d'un 'en-tête de bloc'?",
+    "question": "Quel est l'objectif d'un 'en-tÃªte de bloc'?",
     "options": [
       "Stocker des transactions",
-      "Vérifier l'intégrité d'un bloc",
-      "Sécuriser les portefeuilles",
+      "VÃ©rifier l'intÃ©gritÃ© d'un bloc",
+      "SÃ©curiser les portefeuilles",
       "Augmenter la puissance de minage"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel pays a adopté le Bitcoin comme monnaie légale en 2022?",
+    "question": "Quel pays a adoptÃ© le Bitcoin comme monnaie lÃ©gale en 2022?",
     "options": [
-      "République centrafricaine",
+      "RÃ©publique centrafricaine",
       "Panama",
       "Cuba",
       "Argentine"
@@ -759,21 +759,21 @@
     "question": "Quel est l'objectif d'un 'hardware wallet'?",
     "options": [
       "Effectuer du minage",
-      "Stockage sécurisé hors ligne des clés privées",
-      "Échanger des transactions",
+      "Stockage sÃ©curisÃ© hors ligne des clÃ©s privÃ©es",
+      "Ã‰changer des transactions",
       "Stocker des blocs"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un 'nonce' dans un bloc Bitcoin?",
     "options": [
       "Un code de transaction",
-      "Une valeur ajustée pendant le minage pour trouver le hachage",
+      "Une valeur ajustÃ©e pendant le minage pour trouver le hachage",
       "Une sauvegarde de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
@@ -783,7 +783,7 @@
     "question": "Qu'est-ce qu'un 'bloc orphelin'?",
     "options": [
       "Un bloc sans transactions",
-      "Un bloc non inclus dans la chaîne principale",
+      "Un bloc non inclus dans la chaÃ®ne principale",
       "Un bloc sans mineur",
       "Un bloc avec des transactions invalides"
     ],
@@ -792,16 +792,16 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Quel est l'objectif de Fedimint dans l'écosystème Bitcoin?",
+    "question": "Quel est l'objectif de Fedimint dans l'Ã©cosystÃ¨me Bitcoin?",
     "options": [
-      "Générer de nouveaux Bitcoins",
-      "Permettre la garde décentralisée et les transactions",
+      "GÃ©nÃ©rer de nouveaux Bitcoins",
+      "Permettre la garde dÃ©centralisÃ©e et les transactions",
       "Introduire des contrats intelligents",
-      "Gérer des pools de minage"
+      "GÃ©rer des pools de minage"
     ],
     "answer": 1,
     "difficulty": "bitcoiner",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Que signifie SHA-256?",
@@ -813,43 +813,43 @@
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qu'est-ce qu'une attaque à 51%?",
+    "question": "Qu'est-ce qu'une attaque Ã  51%?",
     "options": [
       "Une attaque de pirates sur les portefeuilles",
-      "Une attaque de surcharge sur le réseau",
-      "Quand un mineur contrôle plus de 51% du taux de hachage",
-      "Quand la moitié des utilisateurs vendent du Bitcoin"
+      "Une attaque de surcharge sur le rÃ©seau",
+      "Quand un mineur contrÃ´le plus de 51% du taux de hachage",
+      "Quand la moitiÃ© des utilisateurs vendent du Bitcoin"
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Pourquoi le Proof of Work consomme-t-il beaucoup d'énergie?",
+    "question": "Pourquoi le Proof of Work consomme-t-il beaucoup d'Ã©nergie?",
     "options": [
       "Il utilise des contrats intelligents",
-      "Il nécessite des calculs de hachage complexes",
+      "Il nÃ©cessite des calculs de hachage complexes",
       "Il stocke des transactions",
-      "Il chiffre des clés privées"
+      "Il chiffre des clÃ©s privÃ©es"
     ],
     "answer": 1,
     "difficulty": "satoshi",
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qu'est-ce que la mise à jour Taproot?",
+    "question": "Qu'est-ce que la mise Ã  jour Taproot?",
     "options": [
-      "Une mise à jour pour augmenter la taille des blocs",
-      "Une mise à jour pour améliorer la confidentialité et l'évolutivité",
-      "Une mise à jour pour introduire des contrats intelligents",
-      "Une mise à jour pour réduire la difficulté du minage"
+      "Une mise Ã  jour pour augmenter la taille des blocs",
+      "Une mise Ã  jour pour amÃ©liorer la confidentialitÃ© et l'Ã©volutivitÃ©",
+      "Une mise Ã  jour pour introduire des contrats intelligents",
+      "Une mise Ã  jour pour rÃ©duire la difficultÃ© du minage"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel message le Genesis Block contient-il?",
@@ -864,12 +864,12 @@
     "category": "Histoire et adoption du Bitcoin"
   },
   {
-    "question": "Quelle est la fonction de la difficulté dans le réseau Bitcoin?",
+    "question": "Quelle est la fonction de la difficultÃ© dans le rÃ©seau Bitcoin?",
     "options": [
-      "Elle affecte les coûts de transaction",
-      "Elle détermine la récompense par bloc",
-      "Elle ajuste la difficulté du minage",
-      "Elle décide du solde du portefeuille"
+      "Elle affecte les coÃ»ts de transaction",
+      "Elle dÃ©termine la rÃ©compense par bloc",
+      "Elle ajuste la difficultÃ© du minage",
+      "Elle dÃ©cide du solde du portefeuille"
     ],
     "answer": 2,
     "difficulty": "satoshi",
@@ -878,17 +878,17 @@
   {
     "question": "Qu'est-ce qu'un soft fork?",
     "options": [
-      "Une panne complète du réseau",
-      "Un changement de protocole rétrocompatible",
+      "Une panne complÃ¨te du rÃ©seau",
+      "Un changement de protocole rÃ©trocompatible",
       "Une nouvelle cryptomonnaie",
       "Une interface graphique pour les portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel langage de programmation a été principalement utilisé pour Bitcoin Core?",
+    "question": "Quel langage de programmation a Ã©tÃ© principalement utilisÃ© pour Bitcoin Core?",
     "options": [
       "Python",
       "Rust",
@@ -897,22 +897,22 @@
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un hard fork?",
     "options": [
-      "Une mise à jour rétrocompatible",
-      "Une mise à niveau du réseau qui rompt le consensus",
+      "Une mise Ã  jour rÃ©trocompatible",
+      "Une mise Ã  niveau du rÃ©seau qui rompt le consensus",
       "Un nouveau portefeuille",
       "Un accident de minage"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Laquelle de ces plateformes n'est PAS un réseau de couche 2?",
+    "question": "Laquelle de ces plateformes n'est PAS un rÃ©seau de couche 2?",
     "options": [
       "Lightning",
       "Liquid",
@@ -921,27 +921,27 @@
     ],
     "answer": 2,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Que se passe-t-il si un mineur publie un bloc invalide?",
     "options": [
-      "Il reçoit une récompense plus élevée",
-      "Il est définitivement banni",
-      "Le bloc est rejeté par le réseau",
-      "Le bloc est quand même stocké"
+      "Il reÃ§oit une rÃ©compense plus Ã©levÃ©e",
+      "Il est dÃ©finitivement banni",
+      "Le bloc est rejetÃ© par le rÃ©seau",
+      "Le bloc est quand mÃªme stockÃ©"
     ],
     "answer": 2,
     "difficulty": "satoshi",
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Quelle taille de bloc a été spécifiée dans le livre blanc Bitcoin?",
+    "question": "Quelle taille de bloc a Ã©tÃ© spÃ©cifiÃ©e dans le livre blanc Bitcoin?",
     "options": [
       "1 MB",
       "10 MB",
       "0,5 MB",
-      "illimitée"
+      "illimitÃ©e"
     ],
     "answer": 0,
     "difficulty": "satoshi",
@@ -951,28 +951,28 @@
     "question": "Qu'est-ce qu'un portefeuille multisig?",
     "options": [
       "Un portefeuille avec plusieurs devises",
-      "Un portefeuille nécessitant plusieurs signatures pour les transactions",
+      "Un portefeuille nÃ©cessitant plusieurs signatures pour les transactions",
       "Un portefeuille pour le minage",
-      "Un portefeuille avec un échange intégré"
+      "Un portefeuille avec un Ã©change intÃ©grÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Comment la difficulté est-elle ajustée dans le minage Bitcoin?",
+    "question": "Comment la difficultÃ© est-elle ajustÃ©e dans le minage Bitcoin?",
     "options": [
       "Pas du tout",
       "Automatiquement tous les 2016 blocs",
       "Quotidiennement",
-      "Après chaque halving"
+      "AprÃ¨s chaque halving"
     ],
     "answer": 1,
     "difficulty": "satoshi",
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Quel algorithme est utilisé pour le minage Bitcoin?",
+    "question": "Quel algorithme est utilisÃ© pour le minage Bitcoin?",
     "options": [
       "MD5",
       "SHA-1",
@@ -987,128 +987,128 @@
     "question": "Qu'est-ce qu'un 'ScriptSig' dans une transaction Bitcoin?",
     "options": [
       "Un script de minage",
-      "Un script pour déverrouiller un UTXO",
+      "Un script pour dÃ©verrouiller un UTXO",
       "Une sauvegarde de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'locktime' dans Bitcoin?",
     "options": [
-      "Exécuter des transactions immédiatement",
-      "Libérer des transactions à un moment spécifique",
+      "ExÃ©cuter des transactions immÃ©diatement",
+      "LibÃ©rer des transactions Ã  un moment spÃ©cifique",
       "Verrouiller des blocs",
       "Chiffrer des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un 'Portefeuille SPV' (Simplified Payment Verification)?",
     "options": [
       "Un portefeuille pour le minage",
-      "Un portefeuille qui ne vérifie que les en-têtes de bloc",
+      "Un portefeuille qui ne vÃ©rifie que les en-tÃªtes de bloc",
       "Un portefeuille pour les contrats intelligents",
-      "Un portefeuille pour les échanges"
+      "Un portefeuille pour les Ã©changes"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'CheckSequenceVerify' (CSV)?",
     "options": [
-      "Confirmer des transactions immédiatement",
-      "Définir des délais relatifs pour les transactions",
+      "Confirmer des transactions immÃ©diatement",
+      "DÃ©finir des dÃ©lais relatifs pour les transactions",
       "Supprimer des blocs",
-      "Sécuriser des portefeuilles"
+      "SÃ©curiser des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'une 'sidechain' dans le contexte du Bitcoin?",
     "options": [
-      "Une blockchain alternative liée à Bitcoin",
+      "Une blockchain alternative liÃ©e Ã  Bitcoin",
       "Un pool de minage",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 0,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'Filtre de Bloom' dans Bitcoin?",
     "options": [
       "Filtrer les transactions",
-      "Améliorer la confidentialité pour les portefeuilles SPV",
+      "AmÃ©liorer la confidentialitÃ© pour les portefeuilles SPV",
       "Trouver des blocs plus rapidement",
       "Calculer les frais"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'un 'CoinJoin'?",
     "options": [
       "Un pool de minage",
-      "Une méthode pour améliorer la confidentialité en mélangeant les transactions",
+      "Une mÃ©thode pour amÃ©liorer la confidentialitÃ© en mÃ©langeant les transactions",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qu'est-ce qu'un 'Tapscript' dans la mise à jour Taproot?",
+    "question": "Qu'est-ce qu'un 'Tapscript' dans la mise Ã  jour Taproot?",
     "options": [
       "Un nouveau protocole de minage",
       "Un langage de script pour des transactions plus complexes",
       "Une sauvegarde de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'Contrat de verrouillage temporel par hachage' (HTLC)?",
     "options": [
-      "Sécuriser des portefeuilles",
-      "Permettre des paiements à durée limitée dans le Lightning Network",
+      "SÃ©curiser des portefeuilles",
+      "Permettre des paiements Ã  durÃ©e limitÃ©e dans le Lightning Network",
       "Trouver des blocs plus rapidement",
       "Supprimer des transactions"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qu'est-ce qu'un schéma de 'Signature Schnorr'?",
+    "question": "Qu'est-ce qu'un schÃ©ma de 'Signature Schnorr'?",
     "options": [
       "Un algorithme de minage",
-      "Une méthode de signature plus efficace dans la mise à jour Taproot",
+      "Une mÃ©thode de signature plus efficace dans la mise Ã  jour Taproot",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Quel est l'objectif d'une 'Cible de difficulté' dans Bitcoin?",
+    "question": "Quel est l'objectif d'une 'Cible de difficultÃ©' dans Bitcoin?",
     "options": [
       "Valider les transactions",
-      "Définir le niveau de difficulté pour miner un bloc",
-      "Sécuriser les portefeuilles",
+      "DÃ©finir le niveau de difficultÃ© pour miner un bloc",
+      "SÃ©curiser les portefeuilles",
       "Calculer les frais"
     ],
     "answer": 1,
@@ -1116,12 +1116,12 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qu'est-ce qu'une 'Réorganisation de la chaîne' dans Bitcoin?",
+    "question": "Qu'est-ce qu'une 'RÃ©organisation de la chaÃ®ne' dans Bitcoin?",
     "options": [
-      "Créer un nouveau portefeuille",
+      "CrÃ©er un nouveau portefeuille",
       "Quand une blockchain plus longue remplace une plus courte",
       "Un pool de minage",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
@@ -1131,56 +1131,56 @@
     "question": "Quel est l'objectif d'un 'OP_RETURN' dans Bitcoin?",
     "options": [
       "Signer des transactions",
-      "Insérer de petites quantités de données dans la blockchain",
+      "InsÃ©rer de petites quantitÃ©s de donnÃ©es dans la blockchain",
       "Supprimer des blocs",
-      "Sécuriser des portefeuilles"
+      "SÃ©curiser des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'une 'Statechain' dans le contexte du Bitcoin?",
     "options": [
       "Un algorithme de minage",
-      "Une méthode pour les transferts d'UTXO hors chaîne",
+      "Une mÃ©thode pour les transferts d'UTXO hors chaÃ®ne",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'Child Pays for Parent' (CPFP)?",
     "options": [
-      "Créer un nouveau portefeuille",
-      "Accélérer une transaction non confirmée avec des frais plus élevés",
+      "CrÃ©er un nouveau portefeuille",
+      "AccÃ©lÃ©rer une transaction non confirmÃ©e avec des frais plus Ã©levÃ©s",
       "Trouver des blocs plus rapidement",
-      "Sécuriser des portefeuilles"
+      "SÃ©curiser des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Qu'est-ce qu'une 'Transaction confidentielle' dans le contexte du Bitcoin?",
     "options": [
-      "Une transaction avec des montants cachés",
+      "Une transaction avec des montants cachÃ©s",
       "Une transaction sans frais",
       "Une transaction pour le minage",
       "Une transaction pour les portefeuilles"
     ],
     "answer": 0,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'une 'Subvention de bloc'?",
     "options": [
       "Stocker des transactions",
-      "La récompense pour les mineurs pour trouver un bloc",
-      "Sécuriser des portefeuilles",
+      "La rÃ©compense pour les mineurs pour trouver un bloc",
+      "SÃ©curiser des portefeuilles",
       "Calculer les frais"
     ],
     "answer": 1,
@@ -1188,39 +1188,39 @@
     "category": "Proof of Work et minage"
   },
   {
-    "question": "Qu'est-ce qu'un 'Nœud élagué' dans le réseau Bitcoin?",
+    "question": "Qu'est-ce qu'un 'NÅ“ud Ã©laguÃ©' dans le rÃ©seau Bitcoin?",
     "options": [
-      "Un nœud avec la blockchain complète",
-      "Un nœud avec des données historiques réduites",
-      "Un nœud de minage",
-      "Un nœud de portefeuille"
+      "Un nÅ“ud avec la blockchain complÃ¨te",
+      "Un nÅ“ud avec des donnÃ©es historiques rÃ©duites",
+      "Un nÅ“ud de minage",
+      "Un nÅ“ud de portefeuille"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
     "question": "Quel est l'objectif d'un 'CheckLockTimeVerify' (CLTV)?",
     "options": [
-      "Exécuter des transactions immédiatement",
-      "Définir des délais absolus pour les transactions",
+      "ExÃ©cuter des transactions immÃ©diatement",
+      "DÃ©finir des dÃ©lais absolus pour les transactions",
       "Supprimer des blocs",
-      "Sécuriser des portefeuilles"
+      "SÃ©curiser des portefeuilles"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   },
   {
-    "question": "Qu'est-ce que Ark dans l'écosystème Bitcoin?",
+    "question": "Qu'est-ce que Ark dans l'Ã©cosystÃ¨me Bitcoin?",
     "options": [
       "Un protocole de minage",
-      "Une solution d'évolutivité pour les transactions à confiance minimisée",
+      "Une solution d'Ã©volutivitÃ© pour les transactions Ã  confiance minimisÃ©e",
       "Un type de portefeuille",
-      "Un protocole de sécurité"
+      "Un protocole de sÃ©curitÃ©"
     ],
     "answer": 1,
     "difficulty": "satoshi",
-    "category": "Technologie et sécurité"
+    "category": "Technologie et sÃ©curitÃ©"
   }
 ]
