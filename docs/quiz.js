@@ -13,6 +13,20 @@ function setupQuizControls() {
 }
 
 
+// Beim Laden der JSON-Dateien UTF-8-Kodierung erzwingen
+function loadQuestions(language) {
+    return fetch(`lang/${language}.json`, {
+        headers: {
+            'Content-Type': 'application/json; charset=utf-8'
+        }
+    })
+    .then(response => response.json())
+    .catch(error => {
+        console.error(`Error loading questions for ${language}:`, error);
+        return [];
+    });
+}
+
 async function loadQuestions() { 
     const res = await fetch(`lang/${selectedLang}.json`);
     //const res = await fetch(`../lang/${selectedLang}.json`); // same level /doc und /lang
