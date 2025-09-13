@@ -12,17 +12,9 @@ function setupQuizControls() {
   document.getElementById("startButton").addEventListener("click", startQuiz);
 }
 
-// Verbesserte Funktion zum Laden der Fragen mit korrektem Content-Type
 async function loadQuestions() { 
     try {
-        // Fetch mit expliziter Angabe für den Response-Type
-        const res = await fetch(`lang/${selectedLang}.json`, {
-            headers: {
-                'Accept': 'application/json; charset=utf-8'
-            }
-        });
-        
-        // Den Response als JSON dekodieren
+        const res = await fetch(`lang/${selectedLang}.json`);
         const data = await res.json();
         
         const filtered = data.filter(q => q.difficulty.includes(selectedLevel));
