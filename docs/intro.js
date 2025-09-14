@@ -1,7 +1,7 @@
 <!-- Intro-Overlay -->
 <div id="intro-overlay">
   <div class="intro-content">
-    <img src="satoshi.png" alt="Satoshi Quizmaster" class="intro-figure" />
+    <img src="assets/images/IntroV01.png" alt="Satoshi Quizmaster" class="intro-figure" />
     <h1>Can you outsmart Satoshi?</h1>
     <button id="start-quiz">Start Quiz</button>
     <p id="countdown" style="margin-top:0.5rem; font-size:0.9rem; opacity:0.7;">
