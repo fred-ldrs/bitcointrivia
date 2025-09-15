@@ -45,41 +45,38 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const overlay = document.getElementById("intro-overlay");
-    const btn = document.getElementById("start-quiz");
-    const countdownEl = document.getElementById("countdown");
+  const overlay = document.getElementById("intro-overlay");
+  const btn = document.getElementById("start-quiz");
+  const countdownEl = document.getElementById("countdown");
 
-    const seen = localStorage.getItem("introSeen");
-    const now = Date.now();
-    const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000; // ms
+  const seen = localStorage.getItem("introSeen");
+  const now = Date.now();
+  const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000; // ms
 
-    // Prüfen, ob Intro in den letzten 30 Tagen gezeigt wurde
-    if (seen) {
-      const seenTime = parseInt(seen, 10);
-      if (now - seenTime < THIRTY_DAYS) {
-        overlay.style.display = "none";
-        return; // Intro überspringen
-      }
-    }
-
-    // Funktion: Intro schließen + speichern
-    function closeIntro() {
+  // Intro nur anzeigen, wenn es noch nicht gesehen wurde oder älter als 30 Tage ist
+  if (seen) {
+    const seenTime = parseInt(seen, 10);
+    if (now - seenTime < THIRTY_DAYS) {
       overlay.style.display = "none";
-      localStorage.setItem("introSeen", Date.now().toString());
+      return;
     }
+  }
 
-    // Klick auf Button
-    btn.addEventListener("click", closeIntro);
+  function closeIntro() {
+    overlay.style.display = "none";
+    localStorage.setItem("introSeen", Date.now().toString());
+  }
 
-    // Countdown starten
-    let seconds = 5;
-    const timer = setInterval(() => {
-      seconds--;
-      countdownEl.textContent = `Auto-starts in ${seconds} second${seconds !== 1 ? "s" : ""}...`;
-      if (seconds <= 0) {
-        clearInterval(timer);
-        closeIntro();
-      }
-    }, 1000);
-  });
+  btn.addEventListener("click", closeIntro);
+
+  let seconds = 5;
+  const timer = setInterval(() => {
+    seconds--;
+    countdownEl.textContent = `Auto-starts in ${seconds} second${seconds !== 1 ? "s" : ""}...`;
+    if (seconds <= 0) {
+      clearInterval(timer);
+      closeIntro();
+    }
+  }, 1000);
+});
 </script>
