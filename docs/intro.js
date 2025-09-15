@@ -54,6 +54,7 @@
   const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000; // ms
 
   // Intro nur anzeigen, wenn es noch nicht gesehen wurde oder älter als 30 Tage ist
+  /*
   if (seen) {
     const seenTime = parseInt(seen, 10);
     if (now - seenTime < THIRTY_DAYS) {
@@ -61,6 +62,7 @@
       return;
     }
   }
+  */
 
   function closeIntro() {
     overlay.style.display = "none";
