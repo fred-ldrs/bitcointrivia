@@ -1,0 +1,35 @@
+/* Intro-Overlay Styling */
+#intro-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.intro-content {
+    text-align: center;
+    max-width: 400px;
+}
+
+.intro-figure {
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+#start-quiz {
+    background: #f7931a; /* Bitcoin Orange */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    #start-quiz:hover {
+        background: #e67e00;
+    }

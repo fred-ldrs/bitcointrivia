@@ -48,25 +48,28 @@
   const overlay = document.getElementById("intro-overlay");
   const btn = document.getElementById("start-quiz");
   const countdownEl = document.getElementById("countdown");
+  const container = document.querySelector('.container');
 
   const seen = localStorage.getItem("introSeen");
   const now = Date.now();
   const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000; // ms
 
   // Intro nur anzeigen, wenn es noch nicht gesehen wurde oder älter als 30 Tage ist
-  /*
-  if (seen) {
+  /* if (seen) {
     const seenTime = parseInt(seen, 10);
     if (now - seenTime < THIRTY_DAYS) {
       overlay.style.display = "none";
+      container.style.display = "block";
+      setupQuizControls(); // Quiz-Setup ausführen
       return;
     }
-  }
-  */
+  } */
 
   function closeIntro() {
     overlay.style.display = "none";
+    container.style.display = "block";
     localStorage.setItem("introSeen", Date.now().toString());
+    setupQuizControls(); // Quiz-Setup ausführen
   }
 
   btn.addEventListener("click", closeIntro);
