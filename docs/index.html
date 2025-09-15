@@ -22,88 +22,89 @@
   </div>
     -->
 
-  <div class="main-wrapper">
-    <div class="container" style="display:none;">
-        <img src="assets/images/BitcoinTriviaV3.png" alt="Bitcoin Logo" class="quiz-logo">
-          <!-- Quiz Content -->
-        <h1>Bitcoin Trivia</h1>
-        <label for="language">Language:</label>
-        <select id="language">
-            <option value="de">Deutsch</option>
-            <option value="en">English</option>
-            <option value="fr">Français</option>
-        </select>
-        <label for="level">Level:</label>
-        <select id="level">
-            <option value="curious">🟠 Bitcoiner</option>
-            <option value="bitcoiner">🟠🟠 Cypherpunk</option>
-            <option value="satoshi">🟠🟠🟠 Satoshi </option>
-        </select>
-        <button id="startButton">Start</button>
-        <div id="quiz"></div>
-      </div>
-    
-      <script src="quiz.js"></script>
+    <div class="main-wrapper">
+        <div class="container" style="display:none;">
+            <img src="assets/images/BitcoinTriviaV3.png" alt="Bitcoin Logo" class="quiz-logo">
+            <!-- Quiz Content -->
+            <h1>Bitcoin Trivia</h1>
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="de">Deutsch</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+            </select>
+            <label for="level">Level:</label>
+            <select id="level">
+                <option value="curious">🟠 Bitcoiner</option>
+                <option value="bitcoiner">🟠🟠 Cypherpunk</option>
+                <option value="satoshi">🟠🟠🟠 Satoshi </option>
+            </select>
+            <button id="startButton">Start</button>
+            <div id="quiz"></div>
+        </div>
 
-      <script>
-          const container = document.querySelector('.container');
-          container.style.display = 'block';
-          setupQuizControls(); // ruft dein Quiz-Setup auf
-      </script>
+        <script src="quiz.js"></script>
+        <script src="intro.js"></script>
 
-      <!--
-      <script>
-        const overlay = document.getElementById('password-overlay');
-        const container = document.querySelector('.container');
-        const input = document.getElementById('password-input');
-        const btn = document.getElementById('password-submit');
-        const errorMsg = document.getElementById('password-error');
-        const correctPassword = 'pow';
-    
-        btn.addEventListener('click', () => {
-          if (input.value === correctPassword) {
-            overlay.style.display = 'none';
+        <script>
+            const container = document.querySelector('.container');
             container.style.display = 'block';
-            setupQuizControls(); // Eventlistener setzen NACH Sichtbarmachen
-          } else {
-            errorMsg.style.display = 'block';
-            input.value = '';
-            input.focus();
-          }
-        });
-    
-        input.addEventListener('keypress', e => {
-          if(e.key === 'Enter') btn.click();
-        });
-      </script>
-      -->
-    
-    <footer>
-      <div>
-        <a href="https://boardgamegeek.com/boardgame/451160/bitcoin-trivia" 
-           target="_blank" 
-           rel="noopener noreferrer">
-          View "Bitcoin Trivia" on BoardGameGeek
-        </a>
-      </div>
-      <br />
-      <!-- Simplified Bitcoin donation button - no image, larger text -->
-      <a href="support.html" 
-         target="_blank"
-         class="bitcoin-donate-button">
-        Support me
-      </a>
-    <br />
-      <div>
-        <a href="impressum.html">
-          Impressum & Datenschutz
-        </a>
-      </div>
-        <br />
-        &copy; 2025 bitcointrivia.org
-    </footer>
+            setupQuizControls(); // ruft dein Quiz-Setup auf
+        </script>
 
-</div>
+        <!--
+    <script>
+      const overlay = document.getElementById('password-overlay');
+      const container = document.querySelector('.container');
+      const input = document.getElementById('password-input');
+      const btn = document.getElementById('password-submit');
+      const errorMsg = document.getElementById('password-error');
+      const correctPassword = 'pow';
+
+      btn.addEventListener('click', () => {
+        if (input.value === correctPassword) {
+          overlay.style.display = 'none';
+          container.style.display = 'block';
+          setupQuizControls(); // Eventlistener setzen NACH Sichtbarmachen
+        } else {
+          errorMsg.style.display = 'block';
+          input.value = '';
+          input.focus();
+        }
+      });
+
+      input.addEventListener('keypress', e => {
+        if(e.key === 'Enter') btn.click();
+      });
+    </script>
+    -->
+
+        <footer>
+            <div>
+                <a href="https://boardgamegeek.com/boardgame/451160/bitcoin-trivia"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View "Bitcoin Trivia" on BoardGameGeek
+                </a>
+            </div>
+            <br />
+            <!-- Simplified Bitcoin donation button - no image, larger text -->
+            <a href="support.html"
+               target="_blank"
+               class="bitcoin-donate-button">
+                Support me
+            </a>
+            <br />
+            <div>
+                <a href="impressum.html">
+                    Impressum & Datenschutz
+                </a>
+            </div>
+            <br />
+            &copy; 2025 bitcointrivia.org
+        </footer>
+
+    </div>
 
 </body>
 
