@@ -179,3 +179,11 @@ footer a {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   background: linear-gradient(45deg, #ffad33, #f7931a);
 }
+
+.tagline {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
