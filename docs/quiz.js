@@ -38,10 +38,15 @@ function shuffle(array) {
 }
 
 async function startQuiz() {
-    // Intro-Bild ausblenden
+    // Intro-Bild ausblenden - verbesserte Version
     const introImage = document.getElementById("intro-image");
     if (introImage) {
         introImage.style.display = "none";
+        // Zusätzlich weitere Eigenschaften setzen, um sicherzustellen, dass es wirklich ausgeblendet wird
+        introImage.style.visibility = "hidden";
+        introImage.classList.add("hidden");
+    } else {
+        console.warn("Intro-Bild mit ID 'intro-image' wurde nicht gefunden!");
     }
     
     // Quiz-Logik starten
