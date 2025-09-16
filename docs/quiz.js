@@ -152,7 +152,7 @@ function showResults() {
     resultHTML += `<div class="result-image"><img src="${resultImage}" alt="Result Level Image"></div>`;
 
     if (wrongAnswers.length > 0) {
-        resultHTML += `<h3>${t.wrongAnswers}</h3><ul>`;
+        resultHTML += `<h3 style="text-align: left;">${t.wrongAnswers}</h3><ul>`;
         wrongAnswers.forEach((item, index) => {
             resultHTML += `
                 <li>
