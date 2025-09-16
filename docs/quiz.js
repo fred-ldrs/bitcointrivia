@@ -88,7 +88,8 @@ function showResults() {
             correctAnswer: "Richtige Antwort",
             satoshiLevel: "🟢 Satoshi-Level!",
             bitcoinerLevel: "🟡 Bitcoiner-Level",
-            curiousLevel: "🔴 Curious-Level"
+            curiousLevel: "🔴 Curious-Level",
+            contactInfo: "Für Feedback oder neue Fragen kontaktiere uns bitte unter: info@bitcointrivia.org"
         },
         en: {
             score: "Score",
@@ -99,7 +100,8 @@ function showResults() {
             correctAnswer: "Correct Answer",
             satoshiLevel: "🟢 Satoshi Level!",
             bitcoinerLevel: "🟡 Bitcoiner Level",
-            curiousLevel: "🔴 Curious Level"
+            curiousLevel: "🔴 Curious Level",
+            contactInfo: "For feedback or new questions, please contact us at: info@bitcointrivia.org"
         },
         fr: {
             score: "Score",
@@ -110,7 +112,8 @@ function showResults() {
             correctAnswer: "Bonne réponse",
             satoshiLevel: "🟢 Niveau Satoshi!",
             bitcoinerLevel: "🟡 Niveau Bitcoiner",
-            curiousLevel: "🔴 Niveau Curieux"
+            curiousLevel: "🔴 Niveau Curieux",
+            contactInfo: "Pour des commentaires ou de nouvelles questions, contactez-nous à: info@bitcointrivia.org"
         }
     };
 
@@ -118,14 +121,23 @@ function showResults() {
     const t = translations[selectedLang] || translations.de;
     
     let level;
+    let resultImage;
     const percentage = score / questions.length;
     
-    if (percentage >= 0.85) level = t.satoshiLevel;
-    else if (percentage >= 0.6) level = t.bitcoinerLevel;
-    else level = t.curiousLevel;
+    if (percentage >= 0.85) {
+        level = t.satoshiLevel;
+        resultImage = "assets/images/resultLvl3_V01.png";  // Satoshi Level
+    } else if (percentage >= 0.6) {
+        level = t.bitcoinerLevel;
+        resultImage = "assets/images/resultLvl2_V01.png";  // Bitcoiner Level
+    } else {
+        level = t.curiousLevel;
+        resultImage = "assets/images/resultLvl1_V01.png";  // Curious Level
+    }
 
     let resultHTML = `<h2>${t.score}: ${score}/${questions.length}</h2>`;
     resultHTML += `<p>${level}</p>`;
+    resultHTML += `<div class="result-image"><img src="${resultImage}" alt="Result Level Image"></div>`;
 
     if (wrongAnswers.length > 0) {
         resultHTML += `<h3>${t.wrongAnswers}</h3><ul>`;
@@ -142,6 +154,9 @@ function showResults() {
     } else {
         resultHTML += `<p>${t.perfect}</p>`;
     }
+
+    // Kontaktinformationen am Ende der Ergebnisseite hinzufügen
+    resultHTML += `<div class="contact-info"><p>${t.contactInfo}</p></div>`;
 
     document.getElementById("quiz").innerHTML = resultHTML;
 }

@@ -187,3 +187,16 @@ footer a {
     margin-top: -10px;
     margin-bottom: 20px;
 }
+
+/* Styling für Ergebnisbilder */
+.result-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.result-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
