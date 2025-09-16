@@ -200,3 +200,15 @@ footer a {
   border-radius: 0;
   box-shadow: none;
 }
+
+/* Styling für das Intro-Bild */
+#intro-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.intro-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}

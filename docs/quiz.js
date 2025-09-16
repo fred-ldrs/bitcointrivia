@@ -38,6 +38,13 @@ function shuffle(array) {
 }
 
 async function startQuiz() {
+    // Intro-Bild ausblenden
+    const introImage = document.getElementById("intro-image");
+    if (introImage) {
+        introImage.style.display = "none";
+    }
+    
+    // Quiz-Logik starten
     questions = await loadQuestions();
     currentQuestion = 0;
     score = 0;
