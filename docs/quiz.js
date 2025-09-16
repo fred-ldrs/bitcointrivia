@@ -117,8 +117,8 @@ function showResults() {
         }
     };
 
-    // Standardsprache ist Deutsch falls etwas nicht stimmt
-    const t = translations[selectedLang] || translations.de;
+    // Standardsprache ist Englisch falls etwas nicht stimmt
+    const t = translations[selectedLang] || translations.en;
     
     let level;
     let resultImage;
