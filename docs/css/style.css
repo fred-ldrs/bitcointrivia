@@ -208,7 +208,8 @@ footer a {
 }
 
 .intro-image {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   border-radius: 0;
+  box-shadow: none
 }
