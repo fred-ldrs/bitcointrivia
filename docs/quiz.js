@@ -141,10 +141,10 @@ function showResults() {
         resultImage = "assets/images/resultLvl3_V02.png";  // Satoshi Level
     } else if (percentage >= 0.6) {
         level = t.bitcoinerLevel;
-        resultImage = "assets/images/resultLvl2_V02.png";  // Bitcoiner Level
+        resultImage = "assets/images/resultLvl2_V01.png";  // Bitcoiner Level
     } else {
         level = t.curiousLevel;
-        resultImage = "assets/images/resultLvl1_V01.png";  // Curious Level
+        resultImage = "assets/images/resultLvl1_V02.png";  // Curious Level
     }
 
     let resultHTML = `<h2>${t.score}: ${score}/${questions.length}</h2>`;
