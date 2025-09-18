@@ -98,9 +98,9 @@ function showResults() {
             question: "Frage",
             yourAnswer: "Deine Antwort",
             correctAnswer: "Richtige Antwort",
-            satoshiLevel: "🟢 Satoshi-Level!",
-            bitcoinerLevel: "🟡 Bitcoiner-Level",
-            curiousLevel: "🔴 Curious-Level",
+            satoshiLevel: "Satoshi-Level!",
+            bitcoinerLevel: "Bitcoiner-Level",
+            curiousLevel: "Curious-Level",
             contactInfo: "Für Feedback oder neue Fragen kontaktiere uns bitte unter: info@bitcointrivia.org"
         },
         en: {
@@ -110,9 +110,9 @@ function showResults() {
             question: "Question",
             yourAnswer: "Your Answer",
             correctAnswer: "Correct Answer",
-            satoshiLevel: "🟢 Satoshi Level!",
-            bitcoinerLevel: "🟡 Bitcoiner Level",
-            curiousLevel: "🔴 Curious Level",
+            satoshiLevel: "Satoshi Level!",
+            bitcoinerLevel: "Bitcoiner Level",
+            curiousLevel: "Curious Level",
             contactInfo: "For feedback or new questions, please contact us at: info@bitcointrivia.org"
         },
         fr: {
@@ -122,9 +122,9 @@ function showResults() {
             question: "Question",
             yourAnswer: "Votre réponse",
             correctAnswer: "Bonne réponse",
-            satoshiLevel: "🟢 Niveau Satoshi!",
-            bitcoinerLevel: "🟡 Niveau Bitcoiner",
-            curiousLevel: "🔴 Niveau Curieux",
+            satoshiLevel: "Niveau Satoshi!",
+            bitcoinerLevel: "Niveau Bitcoiner",
+            curiousLevel: "Niveau Curieux",
             contactInfo: "Pour des commentaires ou de nouvelles questions, contactez-nous à: info@bitcointrivia.org"
         }
     };
@@ -148,7 +148,7 @@ function showResults() {
     }
 
     let resultHTML = `<h2>${t.score}: ${score}/${questions.length}</h2>`;
-    resultHTML += `<p>${level}</p>`;
+    resultHTML += `<p style="text-align: center;">${level}</p>`;
     resultHTML += `<div class="result-image"><img src="${resultImage}" alt="Result Level Image"></div>`;
 
     if (wrongAnswers.length > 0) {
