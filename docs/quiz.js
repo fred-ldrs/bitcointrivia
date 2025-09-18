@@ -138,7 +138,7 @@ function showResults() {
     
     if (percentage >= 0.85) {
         level = t.satoshiLevel;
-        resultImage = "assets/images/resultLvl3_V01.png";  // Satoshi Level
+        resultImage = "assets/images/resultLvl3_V02.png";  // Satoshi Level
     } else if (percentage >= 0.6) {
         level = t.bitcoinerLevel;
         resultImage = "assets/images/resultLvl2_V01.png";  // Bitcoiner Level
